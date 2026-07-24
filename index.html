@@ -99,7 +99,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
     <div class="panel">
       <h3>Demandas — acompanhamento</h3>
       <div class="filtros">
-        <input type="text" id="fBusca" placeholder="Buscar na finalidade ou requisitante…" style="min-width:230px">
+        <input type="text" id="fBusca" placeholder="Buscar por finalidade, requisitante ou nº da demanda…" style="min-width:230px">
         <select id="fTipo"><option value="Compra">Tipo: Compra</option><option>Adiantamento</option><option>Adesão</option><option>AdesãoRP</option><option>Aditamento</option><option value="__todos">Todos os tipos</option></select>
         <select id="fSit"><option value="Para compras">Situação: Para compras</option><option value="__todas">Todas as situações</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option><option>Cancelada</option></select>
         <select id="fPrio"><option value="">Prioridade: todas</option><option value="urgente">Urgente</option><option value="prioritario">Prioritário</option><option value="normal">Normal</option></select>
@@ -246,7 +246,7 @@ function desenhaTabela(){
   let rows = rowsVivas();
   if(tipo!=="__todos") rows = rows.filter(r=>r.tipo===tipo);
   if(sit!=="__todas") rows = rows.filter(r=>r.situacao===sit);
-  if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca));
+  if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca) || norm(r.demanda).includes(busca));
   if(pr) rows = rows.filter(r=>r.prio===pr);
   if(resp==="__sem") rows = rows.filter(r=>!r.resp);
   else if(resp) rows = rows.filter(r=>r.resp===resp);
