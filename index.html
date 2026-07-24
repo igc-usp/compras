@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seção de Compras — IGc/USP · Painel de Demandas</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{
+  --navy:#1F3864; --blue:#2E5FA3; --mid:#6E93C8; --light:#DCE6F4; --paper:#F7F9FC;
+  --ink:#1B2430; --muted:#5B6B7E; --line:#D4DDE8;
+  --gold:#C9A227; --red:#B23A48; --green:#3E7C4F;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);font-size:14px}
+header{background:var(--navy);color:#fff;padding:16px 22px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+header h1{font-size:17px;font-weight:bold;letter-spacing:.3px}
+header h1 small{display:block;font-size:11px;font-weight:normal;color:#B7CCE7;letter-spacing:1.2px;text-transform:uppercase;margin-top:2px}
+.hdr-note{font-size:11.5px;color:#B7CCE7;text-align:right;max-width:340px;line-height:1.45}
+main{max-width:1240px;margin:0 auto;padding:18px 22px 60px}
+.meta-line{display:flex;flex-wrap:wrap;gap:16px;align-items:center;color:var(--muted);font-size:12px;margin-bottom:14px}
+.chip{display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:99px;font-size:12px;font-weight:bold}
+.chip .dot{width:9px;height:9px;border-radius:50%}
+.chip.ok{background:#E4F0E7;color:var(--green)} .chip.ok .dot{background:var(--green)}
+.chip.warn{background:#F7EFD8;color:#8A6D0B} .chip.warn .dot{background:var(--gold)}
+.chip.bad{background:#F6E2E5;color:var(--red)} .chip.bad .dot{background:var(--red)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin-bottom:16px}
+.card{background:#fff;border:1px solid var(--line);border-radius:6px;padding:12px 14px}
+.card .k{font-size:26px;font-weight:bold;color:var(--navy);line-height:1.1}
+.card .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-top:4px}
+.card.alerta .k{color:var(--red)}
+.card.atencao .k{color:#8A6D0B}
+.regua{background:#fff;border:1px solid var(--line);border-radius:6px;padding:14px;margin-bottom:16px}
+.regua h3{font-size:12px;color:var(--navy);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px}
+.regua-bar{display:flex;height:26px;border-radius:4px;overflow:hidden;border:1px solid var(--line)}
+.regua-bar div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:11px;font-weight:bold;min-width:0;overflow:hidden;white-space:nowrap}
+.regua-leg{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;font-size:11.5px;color:var(--muted)}
+.regua-leg span{display:inline-flex;align-items:center;gap:5px}
+.regua-leg i{width:10px;height:10px;border-radius:2px;display:inline-block}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
+@media(max-width:900px){.grid2{grid-template-columns:1fr}}
+.panel{background:#fff;border:1px solid var(--line);border-radius:6px;padding:14px}
+.panel h3{font-size:12.5px;color:var(--navy);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px;border-bottom:2px solid var(--light);padding-bottom:6px}
+.panel .chart-wrap{position:relative;height:230px}
+.gargalos li{list-style:none;padding:8px 10px;border-left:3px solid var(--red);background:#FBF3F4;margin-bottom:7px;border-radius:0 4px 4px 0;font-size:13px}
+.gargalos li.warn{border-left-color:var(--gold);background:#FBF7EA}
+.gargalos li.ok{border-left-color:var(--green);background:#F0F7F1}
+.filtros{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 12px;align-items:center}
+select,input[type=text]{font-family:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink)}
+select:focus-visible,input:focus-visible{outline:2px solid var(--blue)}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:12.5px}
+th{background:var(--light);color:var(--navy);text-align:left;padding:8px;font-size:11px;text-transform:uppercase;letter-spacing:.5px;position:sticky;top:0}
+td{padding:7px 8px;border-bottom:1px solid #EDF1F6;vertical-align:top}
+tr:hover td{background:#F4F8FD}
+.tag{display:inline-block;padding:2px 8px;border-radius:3px;font-size:11px;font-weight:bold}
+.tag.urgente{background:var(--red);color:#fff}
+.tag.prioritario{background:var(--gold);color:#fff}
+.tag.normal{background:var(--light);color:var(--navy)}
+.tag.resp{background:var(--navy);color:#fff}
+.tag.fila{background:#EDF1F6;color:var(--muted)}
+.idade-num{font-weight:bold}
+.idade-num.v{color:var(--red)} .idade-num.a{color:#8A6D0B}
+.tbl-wrap{max-height:520px;overflow:auto;border:1px solid var(--line);border-radius:6px}
+.erro{padding:60px 20px;text-align:center;color:var(--red)}
+footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);font-size:11px;line-height:1.6}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Seção de Compras — Painel de Demandas<small>SCCOMPR-44 · Instituto de Geociências / USP</small></h1>
+  <div class="hdr-note">Painel informativo, somente leitura.<br>Edição: José Eduardo da Silva (Seção de Compras).<br>Solicitações de alteração ou correção: <b>comprasigc@usp.br</b></div>
+</header>
+<main>
+  <div class="meta-line">
+    <span id="metaImport">Carregando dados…</span>
+    <span id="metaCom"></span>
+    <span id="healthChip"></span>
+  </div>
+
+  <div id="dash" style="display:none">
+    <div class="cards" id="cards"></div>
+
+    <div class="regua">
+      <h3>Régua de idade da fila — dias desde o encaminhamento</h3>
+      <div class="regua-bar" id="reguaBar" role="img" aria-label="Composição da fila por faixa de idade"></div>
+      <div class="regua-leg" id="reguaLeg"></div>
+    </div>
+
+    <div class="grid2">
+      <div class="panel"><h3>Fila × em mãos × finalizadas</h3><div class="chart-wrap"><canvas id="chFluxo"></canvas></div></div>
+      <div class="panel"><h3>Carga por funcionário (demandas em mãos)</h3><div class="chart-wrap"><canvas id="chCarga"></canvas></div></div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><h3>Demandas cadastradas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
+      <div class="panel"><h3>Gargalos e alertas</h3><ul class="gargalos" id="gargalos"></ul></div>
+    </div>
+
+    <div class="panel">
+      <h3>Demandas — acompanhamento</h3>
+      <div class="filtros">
+        <input type="text" id="fBusca" placeholder="Buscar na finalidade ou requisitante…" style="min-width:230px">
+        <select id="fSit"><option value="Para compras">Situação: Para compras</option><option value="__todas">Todas as situações</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option><option>Cancelada</option></select>
+        <select id="fPrio"><option value="">Prioridade: todas</option><option value="urgente">Urgente</option><option value="prioritario">Prioritário</option><option value="normal">Normal</option></select>
+        <select id="fResp"><option value="">Responsável: todos</option><option value="__sem">— Na fila (sem responsável)</option></select>
+        <span id="fCount" style="color:var(--muted);font-size:12px"></span>
+      </div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr>
+            <th style="width:90px">Demanda</th><th style="width:82px">Tipo</th><th>Finalidade</th>
+            <th style="width:120px">Requisitante</th>
+            <th style="width:86px">Encaminhada</th><th style="width:56px">Dias</th>
+            <th style="width:96px">Prioridade</th><th style="width:100px">Responsável</th><th style="width:86px">Em mãos desde</th>
+          </tr></thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="erro" id="erro" style="display:none"><b>Não foi possível carregar dados.json.</b><br>Verifique se o arquivo está na mesma pasta do painel no repositório.</div>
+</main>
+<footer>Ordenação da fila: urgentes primeiro, depois prioritárias, depois fila normal da mais antiga para a mais recente. Faixas de alerta: acima de 30 dias em atenção, acima de 90 dias em crítico. "Na fila" significa demanda autorizada aguardando distribuição; "em mãos" significa demanda designada a um funcionário, que a conduz do início ao empenho. Dados extraídos do Sistema Administrativo USP e publicados pela Seção de Compras; este painel não substitui os registros oficiais.</footer>
+
+<script>
+(function(){
+"use strict";
+const FUNC = ["Eduardo","Brenno","Joelma","Israel","Thiago"];
+const PRIO_ORD = {urgente:0, prioritario:1, normal:2};
+const PRIO_LBL = {urgente:"Urgente", prioritario:"Prioritário", normal:"Normal"};
+const CORES = {navy:"#1F3864", blue:"#2E5FA3", mid:"#6E93C8", gold:"#C9A227", red:"#B23A48", green:"#3E7C4F", grey:"#9AA5B1"};
+const $ = id => document.getElementById(id);
+let DADOS = null, charts = {};
+
+function fmtD(d){ return d ? String(d.getDate()).padStart(2,"0")+"/"+String(d.getMonth()+1).padStart(2,"0")+"/"+d.getFullYear() : "—"; }
+function dias(d){ return d ? Math.floor((new Date() - d)/86400000) : null; }
+function norm(s){ return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
+
+function rowsVivas(){
+  return DADOS.demandas.map(r => {
+    const enc = r.encam ? new Date(r.encam) : null;
+    return {...r, encamD: enc, cadD: r.cadastro?new Date(r.cadastro):null,
+            prio: r.prioridade||"normal", resp: r.responsavel||"",
+            idade: enc ? dias(enc) : null};
+  });
+}
+function medidas(){
+  const rows = rowsVivas();
+  const fila = rows.filter(r => r.situacao === "Para compras");
+  const emMaosArr = fila.filter(r => r.resp);
+  const filaSemArr = fila.filter(r => !r.resp);
+  return {rows, fila, total: rows.length,
+    filaSem: filaSemArr.length, emMaos: emMaosArr.length,
+    finalizadas: rows.filter(r=>r.situacao==="Concluída"||r.situacao==="Analisada").length,
+    filaSemArr, emMaosArr,
+    urgentesSem: filaSemArr.filter(r=>r.prio==="urgente").length,
+    m90: fila.filter(r=>r.idade!==null && r.idade>90).length,
+    m30sem: filaSemArr.filter(r=>r.idade!==null && r.idade>30).length};
+}
+
+function render(){
+  $("dash").style.display="block";
+  const m = medidas();
+  $("metaImport").textContent = "Atualizado em " + new Date(DADOS.atualizadoEm).toLocaleString("pt-BR") + " · " + m.total + " demandas na base";
+  if(DADOS.compras) $("metaCom").textContent = "Compras: " + DADOS.compras.empenhadas + " empenhadas/inspeção (R$ " + DADOS.compras.valorEfetivado.toLocaleString("pt-BR",{minimumFractionDigits:2}) + ") · " + DADOS.compras.emAndamento + " em andamento";
+
+  const pctResp = m.fila.length ? (m.emMaos/m.fila.length) : 1;
+  let estado, cls;
+  if(m.urgentesSem>0 || m.m90>20 || pctResp<0.3){ estado="Crítico"; cls="bad"; }
+  else if(m.m90>0 || pctResp<0.7 || m.m30sem>5){ estado="Atenção"; cls="warn"; }
+  else { estado="Saudável"; cls="ok"; }
+  $("healthChip").innerHTML = '<span class="chip '+cls+'"><span class="dot"></span>Saúde da Seção: '+estado+' — '+Math.round(pctResp*100)+'% da fila com responsável</span>';
+
+  $("cards").innerHTML = [
+    ['Na fila (sem responsável)', m.filaSem, m.filaSem>0?'atencao':''],
+    ['Em mãos de funcionários', m.emMaos, ''],
+    ['Finalizadas (concluídas + analisadas)', m.finalizadas, ''],
+    ['Urgentes aguardando', m.urgentesSem, m.urgentesSem>0?'alerta':''],
+    ['Na fila há mais de 90 dias', m.m90, m.m90>0?'alerta':''],
+    ['Total de demandas na base', m.total, '']
+  ].map(c=>'<div class="card '+c[2]+'"><div class="k">'+c[1]+'</div><div class="l">'+c[0]+'</div></div>').join("");
+
+  const faixas = [["0–30",0,30,CORES.blue],["31–60",31,60,CORES.mid],["61–90",61,90,CORES.gold],["91–180",91,180,CORES.red],[">180",181,99999,"#7A2531"]];
+  const tot = m.fila.length || 1;
+  $("reguaBar").innerHTML = faixas.map(f=>{
+    const n = m.fila.filter(r=>r.idade!==null && r.idade>=f[1] && r.idade<=f[2]).length;
+    const w = (n/tot*100);
+    return n? '<div style="width:'+w+'%;background:'+f[3]+'" title="'+f[0]+' dias: '+n+'">'+(w>6?n:"")+'</div>':"";
+  }).join("");
+  $("reguaLeg").innerHTML = faixas.map(f=>{
+    const n = m.fila.filter(r=>r.idade!==null && r.idade>=f[1] && r.idade<=f[2]).length;
+    return '<span><i style="background:'+f[3]+'"></i>'+f[0]+' dias · '+n+'</span>';
+  }).join("");
+
+  Chart.defaults.font.family = "Arial, Helvetica, sans-serif";
+  Chart.defaults.font.size = 11;
+  Object.values(charts).forEach(c=>c.destroy()); charts={};
+
+  charts.f = new Chart($("chFluxo"), {type:"doughnut",
+    data:{labels:["Na fila (sem responsável)","Em mãos","Finalizadas"],
+      datasets:[{data:[m.filaSem, m.emMaos, m.finalizadas], backgroundColor:[CORES.grey, CORES.navy, CORES.green], borderWidth:1}]},
+    options:{maintainAspectRatio:false, cutout:"55%", plugins:{legend:{position:"right"}}}});
+
+  const porF = FUNC.map(f=>{
+    const arr = m.emMaosArr.filter(r=>r.resp===f);
+    return {u:arr.filter(r=>r.prio==="urgente").length, p:arr.filter(r=>r.prio==="prioritario").length, n:arr.filter(r=>r.prio==="normal").length};
+  });
+  charts.c = new Chart($("chCarga"), {type:"bar",
+    data:{labels:FUNC, datasets:[
+      {label:"Urgente", data:porF.map(x=>x.u), backgroundColor:CORES.red, stack:"s"},
+      {label:"Prioritário", data:porF.map(x=>x.p), backgroundColor:CORES.gold, stack:"s"},
+      {label:"Normal", data:porF.map(x=>x.n), backgroundColor:CORES.blue, stack:"s"}]},
+    options:{maintainAspectRatio:false, scales:{x:{stacked:true},y:{stacked:true,ticks:{precision:0}}}, plugins:{legend:{position:"bottom"}}}});
+
+  const porMes = {};
+  m.rows.forEach(r=>{ if(r.cadD){ const k = r.cadD.getFullYear()+"-"+String(r.cadD.getMonth()+1).padStart(2,"0"); porMes[k]=(porMes[k]||0)+1; } });
+  const meses = Object.keys(porMes).sort();
+  charts.m = new Chart($("chMes"), {type:"bar",
+    data:{labels:meses.map(k=>k.slice(5,7)+"/"+k.slice(0,4)), datasets:[{label:"Cadastradas", data:meses.map(k=>porMes[k]), backgroundColor:CORES.navy}]},
+    options:{maintainAspectRatio:false, scales:{y:{ticks:{precision:0}}}, plugins:{legend:{display:false}}}});
+
+  const g = [];
+  if(m.urgentesSem>0) g.push(["", m.urgentesSem+" demanda(s) URGENTE(s) aguardando distribuição."]);
+  if(m.m90>0) g.push(["", m.m90+" demanda(s) na fila há mais de 90 dias — estoque antigo em triagem."]);
+  if(m.m30sem>0) g.push(["warn", m.m30sem+" demanda(s) sem responsável há mais de 30 dias de fila."]);
+  const cargas = FUNC.map(f=>m.emMaosArr.filter(r=>r.resp===f).length);
+  const media = cargas.reduce((a,b)=>a+b,0)/FUNC.length;
+  cargas.forEach((c,i)=>{ if(media>0 && c>=media*2 && c>=4) g.push(["warn","Carga de "+FUNC[i]+" ("+c+" demandas) em pelo menos o dobro da média da equipe."]); });
+  const paradas = m.emMaosArr.filter(r=>r.desde && dias(new Date(r.desde))>30).length;
+  if(paradas>0) g.push(["warn", paradas+" demanda(s) em mãos há mais de 30 dias sem finalizar."]);
+  if(!g.length) g.push(["ok","Nenhum gargalo detectado nos critérios monitorados. Fila sob controle."]);
+  $("gargalos").innerHTML = g.map(x=>'<li class="'+x[0]+'">'+x[1]+'</li>').join("");
+
+  const selR = $("fResp");
+  while(selR.options.length>2) selR.remove(2);
+  FUNC.forEach(f=>{ const o=document.createElement("option"); o.textContent=f; selR.appendChild(o); });
+
+  desenhaTabela();
+}
+
+function desenhaTabela(){
+  const busca = norm($("fBusca").value), sit = $("fSit").value, pr = $("fPrio").value, resp = $("fResp").value;
+  let rows = rowsVivas();
+  if(sit!=="__todas") rows = rows.filter(r=>r.situacao===sit);
+  if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca));
+  if(pr) rows = rows.filter(r=>r.prio===pr);
+  if(resp==="__sem") rows = rows.filter(r=>!r.resp);
+  else if(resp) rows = rows.filter(r=>r.resp===resp);
+  rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || ((a.encamD?a.encamD:9e15) - (b.encamD?b.encamD:9e15)));
+  $("fCount").textContent = rows.length + " demanda(s)";
+  $("tbody").innerHTML = rows.map(r=>{
+    const idadeCls = r.idade===null?"":(r.idade>90?"v":(r.idade>30?"a":""));
+    const respTag = r.resp ? '<span class="tag resp">'+r.resp+'</span>' : '<span class="tag fila">na fila</span>';
+    return '<tr>'+
+      '<td>'+(r.demanda||'<span style="color:var(--muted)">s/ nº</span>')+'</td>'+
+      '<td>'+r.tipo+'</td>'+
+      '<td title="'+r.finalidade.replace(/"/g,"&quot;")+'">'+r.finalidade.slice(0,90)+(r.finalidade.length>90?"…":"")+'</td>'+
+      '<td>'+(r.requisitante||"—")+'</td>'+
+      '<td>'+fmtD(r.encamD)+'</td>'+
+      '<td class="idade-num '+idadeCls+'">'+(r.idade===null?"—":r.idade)+'</td>'+
+      '<td><span class="tag '+r.prio+'">'+PRIO_LBL[r.prio]+'</span></td>'+
+      '<td>'+respTag+'</td>'+
+      '<td>'+(r.desde?fmtD(new Date(r.desde)):"—")+'</td>'+
+    '</tr>';
+  }).join("");
+}
+["fBusca","fSit","fPrio","fResp"].forEach(id=>$(id).addEventListener("input", desenhaTabela));
+
+fetch("dados.json", {cache:"no-store"})
+  .then(r=>{ if(!r.ok) throw new Error(); return r.json(); })
+  .then(j=>{ DADOS=j; render(); })
+  .catch(()=>{ $("metaImport").textContent=""; $("erro").style.display="block"; });
+})();
+</script>
+</body>
+</html>
