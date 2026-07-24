@@ -121,7 +121,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
   </div>
   <div class="erro" id="erro" style="display:none"><b>Não foi possível carregar dados.json.</b><br>Verifique se o arquivo está na mesma pasta do painel no repositório.</div>
 </main>
-<footer>Ordenação da fila: urgentes primeiro, depois prioritárias, depois fila normal da mais antiga para a mais recente. Faixas de alerta: acima de 30 dias em atenção, acima de 90 dias em crítico. "Na fila" significa demanda autorizada aguardando distribuição; "em mãos" significa demanda designada a um funcionário, que a conduz do início ao empenho. Dados extraídos do Sistema Administrativo USP e publicados pela Seção de Compras; este painel não substitui os registros oficiais.</footer>
+<footer>Ordenação da tabela: urgentes primeiro, depois prioritárias e, dentro de cada grupo, da demanda mais recente para a mais antiga. Faixas de alerta: acima de 30 dias em atenção, acima de 90 dias em crítico. "Na fila" significa demanda autorizada aguardando distribuição; "em mãos" significa demanda designada a um funcionário, que a conduz do início ao empenho. Dados extraídos do Sistema Administrativo USP e publicados pela Seção de Compras; este painel não substitui os registros oficiais.</footer>
 
 <script>
 (function(){
@@ -250,7 +250,7 @@ function desenhaTabela(){
   if(pr) rows = rows.filter(r=>r.prio===pr);
   if(resp==="__sem") rows = rows.filter(r=>!r.resp);
   else if(resp) rows = rows.filter(r=>r.resp===resp);
-  rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || ((a.encamD?a.encamD:9e15) - (b.encamD?b.encamD:9e15)));
+  rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || ((b.encamD?b.encamD:0) - (a.encamD?a.encamD:0)));
   $("fCount").textContent = rows.length + " demanda(s)";
   const mostraSit = (sit==="__todas");
   $("thSit").style.display = mostraSit ? "" : "none";
