@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-07-24T18:23:24.725Z",
+ "atualizadoEm": "2026-07-24T18:31:44.755Z",
  "compras": null,
  "demandas": [
   {
@@ -1463,8 +1463,8 @@
    "encam": "2026-07-22T19:00:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "",
-   "desde": null
+   "responsavel": "Eduardo",
+   "desde": "2026-07-14T03:00:00.000Z"
   },
   {
    "demanda": "136205/2026",
