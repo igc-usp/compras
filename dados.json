@@ -1,11 +1,19 @@
 {
- "atualizadoEm": "2026-07-24T13:08:49.931Z",
- "compras": {
-  "empenhadas": 41,
-  "valorEfetivado": 1956098.38,
-  "emAndamento": 6
- },
+ "atualizadoEm": "2026-07-24T18:19:17.078Z",
+ "compras": null,
  "demandas": [
+  {
+   "demanda": "230210/2026",
+   "tipo": "AdesãoRP",
+   "finalidade": "Compra por Registro de Preços de Serviços de Bufê para o IGc.",
+   "requisitante": "Nanci Iurico",
+   "cadastro": "2026-07-24T14:41:00.000Z",
+   "encam": "2026-07-24T16:04:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null
+  },
   {
    "demanda": "228991/2026",
    "tipo": "Compra",
@@ -3468,8 +3476,8 @@
    "finalidade": "Insumos de informática para manutenção, adaptação e suporte técnico de equipamentos do Instituto de Geociências da USP, incluindo conectividade, armazenamento e monitoramento ambiental.",
    "requisitante": "Erickson Zanon",
    "cadastro": "2026-01-07T18:08:00.000Z",
-   "encam": "2026-07-23T17:17:00.000Z",
-   "situacao": "Em análise",
+   "encam": null,
+   "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
    "desde": null
