@@ -95,6 +95,10 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       <div class="panel"><h3>Demandas cadastradas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
       <div class="panel"><h3>Gargalos e alertas</h3><ul class="gargalos" id="gargalos"></ul></div>
     </div>
+    <div class="panel" style="margin-bottom:16px">
+      <h3>Compras por modalidade</h3>
+      <div class="chart-wrap" style="height:200px"><canvas id="chModal"></canvas></div>
+    </div>
 
     <div class="panel">
       <h3>Demandas — acompanhamento</h3>
@@ -141,13 +145,14 @@ function rowsVivas(){
   return DADOS.demandas.map(r => {
     const enc = r.encam ? new Date(r.encam) : null;
     return {...r, encamD: enc, cadD: r.cadastro?new Date(r.cadastro):null,
-            prio: r.prioridade||"normal", resp: r.responsavel||"",
+            prio: r.prioridade||"normal", resp: r.responsavel||"", fim: r.finalizada||null,
+            mod: r.modalidade||"", num: r.numeroProcesso||"", stat: r.statusFinal||"",
             idade: enc ? dias(enc) : null};
   });
 }
 function medidas(){
   const rows = rowsVivas();
-  const fila = rows.filter(r => r.situacao === "Para compras" && r.tipo === "Compra");
+  const fila = rows.filter(r => r.situacao === "Para compras" && r.tipo === "Compra" && !r.fim);
   const emMaosArr = fila.filter(r => r.resp);
   const filaSemArr = fila.filter(r => !r.resp);
   return {rows, fila, total: rows.length,
@@ -222,6 +227,16 @@ function render(){
     data:{labels:meses.map(k=>k.slice(5,7)+"/"+k.slice(0,4)), datasets:[{label:"Cadastradas", data:meses.map(k=>porMes[k]), backgroundColor:CORES.navy}]},
     options:{maintainAspectRatio:false, scales:{y:{ticks:{precision:0}}}, plugins:{legend:{display:false}}}});
 
+  const MODS_GRAF = ["Pregão","Dispensa","Inexigibilidade","Concorrência"];
+  const comprasMod = m.rows.filter(r=>r.tipo==="Compra" && r.mod);
+  charts.md = new Chart($("chModal"), {type:"bar",
+    data:{labels:MODS_GRAF, datasets:[
+      {label:"Em andamento", data:MODS_GRAF.map(v=>comprasMod.filter(r=>r.mod===v && !r.fim).length), backgroundColor:CORES.blue, stack:"s"},
+      {label:"Entregues", data:MODS_GRAF.map(v=>comprasMod.filter(r=>r.mod===v && r.fim).length), backgroundColor:CORES.green, stack:"s"}]},
+    options:{maintainAspectRatio:false, indexAxis:"y",
+      scales:{x:{stacked:true,ticks:{precision:0}},y:{stacked:true}},
+      plugins:{legend:{position:"bottom"}}}});
+
   const g = [];
   if(m.urgentesSem>0) g.push(["", m.urgentesSem+" demanda(s) URGENTE(s) aguardando distribuição."]);
   if(m.m90>0) g.push(["", m.m90+" demanda(s) na fila há mais de 90 dias — estoque antigo em triagem."]);
@@ -246,7 +261,7 @@ function desenhaTabela(){
   let rows = rowsVivas();
   if(tipo!=="__todos") rows = rows.filter(r=>r.tipo===tipo);
   if(sit!=="__todas") rows = rows.filter(r=>r.situacao===sit);
-  if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca) || norm(r.demanda).includes(busca));
+  if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca) || norm(r.demanda).includes(busca) || norm(r.num).includes(busca));
   if(pr) rows = rows.filter(r=>r.prio===pr);
   if(resp==="__sem") rows = rows.filter(r=>!r.resp);
   else if(resp) rows = rows.filter(r=>r.resp===resp);
@@ -255,20 +270,27 @@ function desenhaTabela(){
   const mostraSit = (sit==="__todas");
   $("thSit").style.display = mostraSit ? "" : "none";
   const mostraGestao = (tipo==="Compra" || tipo==="__todos");
-  ["thPrio","thResp","thDesde"].forEach(id=>{ $(id).style.display = mostraGestao ? "" : "none"; });
+  ["thPrio","thResp","thDesde","thMod","thNum","thStat"].forEach(id=>{ $(id).style.display = mostraGestao ? "" : "none"; });
   const SIT_COR = {"Para compras":"#1F3864","Em elaboração":"#9AA5B1","Concluída":"#3E7C4F","Analisada":"#2E5FA3","Em análise":"#C9A227","Cancelada":"#B23A48"};
   $("tbody").innerHTML = rows.map(r=>{
     const idadeCls = r.idade===null?"":(r.idade>90?"v":(r.idade>30?"a":""));
-    const respTag = r.resp ? '<span class="tag resp">'+r.resp+'</span>' : '<span class="tag fila">na fila</span>';
+    const respTag = r.fim ? '<span class="tag" style="background:#3E7C4F;color:#fff" title="Compra efetivamente realizada em '+fmtD(new Date(r.fim))+'">✓ '+r.resp+'</span>' : (r.resp ? '<span class="tag resp">'+r.resp+'</span>' : '<span class="tag fila">na fila</span>');
     const sitTd = mostraSit ? '<td><span class="tag" style="background:'+(SIT_COR[r.situacao]||"#9AA5B1")+';color:#fff">'+r.situacao+'</span></td>' : '';
     let gestTds = '';
     if(mostraGestao){
       if(r.tipo==="Compra"){
+        const STAT_COR = {"Homologado":"#3E7C4F","Encerrado":"#1F3864","Anulado":"#B23A48","Suspenso":"#C9A227"};
+        const statTd = (r.fim && r.stat)
+          ? '<td><span class="tag" style="background:'+(STAT_COR[r.stat]||"#9AA5B1")+';color:#fff">'+r.stat+'</span></td>'
+          : '<td style="color:var(--muted)">—</td>';
         gestTds = '<td><span class="tag '+r.prio+'">'+PRIO_LBL[r.prio]+'</span></td>'+
                   '<td>'+respTag+'</td>'+
-                  '<td>'+(r.desde?fmtD(new Date(r.desde)):"—")+'</td>';
+                  '<td>'+(r.desde?fmtD(new Date(r.desde)):"—")+'</td>'+
+                  '<td>'+(r.mod||"—")+'</td>'+
+                  '<td>'+(r.num||"—")+'</td>'+
+                  statTd;
       } else {
-        gestTds = '<td style="color:var(--muted)">—</td><td style="color:var(--muted)">—</td><td style="color:var(--muted)">—</td>';
+        gestTds = '<td style="color:var(--muted)">—</td>'.repeat(6);
       }
     }
     return '<tr>'+
