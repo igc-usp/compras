@@ -116,7 +116,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
             <th style="width:90px">Demanda</th><th style="width:82px">Tipo</th><th style="width:104px;display:none" id="thSit">Situação</th><th>Finalidade</th>
             <th style="width:120px">Requisitante</th>
             <th style="width:86px">Encaminhada</th><th style="width:56px">Dias</th>
-            <th style="width:96px" id="thPrio">Prioridade</th><th style="width:100px" id="thResp">Responsável</th><th style="width:86px" id="thDesde">Em mãos desde</th>
+            <th style="width:96px" id="thPrio">Prioridade</th><th style="width:100px" id="thResp">Responsável</th><th style="width:86px" id="thDesde">Em mãos desde</th><th style="width:104px" id="thMod">Modalidade</th><th style="width:92px" id="thNum">Nº processo</th><th style="width:100px" id="thStat">Status final</th>
           </tr></thead>
           <tbody id="tbody"></tbody>
         </table>
@@ -270,7 +270,7 @@ function desenhaTabela(){
   const mostraSit = (sit==="__todas");
   $("thSit").style.display = mostraSit ? "" : "none";
   const mostraGestao = (tipo==="Compra" || tipo==="__todos");
-  ["thPrio","thResp","thDesde","thMod","thNum","thStat"].forEach(id=>{ $(id).style.display = mostraGestao ? "" : "none"; });
+  ["thPrio","thResp","thDesde","thMod","thNum","thStat"].forEach(id=>{ const e=$(id); if(e) e.style.display = mostraGestao ? "" : "none"; });
   const SIT_COR = {"Para compras":"#1F3864","Em elaboração":"#9AA5B1","Concluída":"#3E7C4F","Analisada":"#2E5FA3","Em análise":"#C9A227","Cancelada":"#B23A48"};
   $("tbody").innerHTML = rows.map(r=>{
     const idadeCls = r.idade===null?"":(r.idade>90?"v":(r.idade>30?"a":""));
@@ -308,8 +308,17 @@ function desenhaTabela(){
 ["fBusca","fTipo","fSit","fPrio","fResp"].forEach(id=>$(id).addEventListener("input", desenhaTabela));
 
 fetch("dados.json", {cache:"no-store"})
-  .then(r=>{ if(!r.ok) throw new Error(); return r.json(); })
-  .then(j=>{ DADOS=j; render(); })
+  .then(r=>{ if(!r.ok) throw new Error("http"); return r.json(); })
+  .then(j=>{
+    DADOS=j;
+    try{ render(); }
+    catch(e){
+      console.error("Erro ao exibir o painel:", e);
+      $("metaImport").textContent="";
+      $("erro").innerHTML="<b>Os dados foram carregados, mas houve um erro ao montar o painel.</b><br>Recarregue a página; se persistir, comunique o editor (versão do index desatualizada).";
+      $("erro").style.display="block";
+    }
+  })
   .catch(()=>{ $("metaImport").textContent=""; $("erro").style.display="block"; });
 })();
 </script>
