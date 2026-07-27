@@ -1,7 +1,27 @@
 {
- "atualizadoEm": "2026-07-24T18:31:44.755Z",
- "compras": null,
+ "atualizadoEm": "2026-07-27T13:07:15.494Z",
+ "compras": {
+  "empenhadas": 41,
+  "valorEfetivado": 1956098.38,
+  "emAndamento": 6
+ },
  "demandas": [
+  {
+   "demanda": "230481/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Óleo Arla para o veiculo Ônibus de placa DJM 2317 patrimônio  1862 que é usado nas  atividades de campo com docentes e alunos .",
+   "requisitante": "Marciano Marcos",
+   "cadastro": "2026-07-24T19:04:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
+  },
   {
    "demanda": "230210/2026",
    "tipo": "AdesãoRP",
@@ -12,7 +32,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "228991/2026",
@@ -24,7 +48,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "228932/2026",
@@ -36,7 +64,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "228886/2026",
@@ -48,7 +80,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "228401/2026",
@@ -60,7 +96,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "228169/2026",
@@ -72,7 +112,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "227600/2026",
@@ -84,7 +128,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "227502/2026",
@@ -96,7 +144,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "227022/2026",
@@ -108,7 +160,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "227006/2026",
@@ -120,7 +176,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "224333/2026",
@@ -132,7 +192,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "223817/2026",
@@ -144,7 +208,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "223612/2026",
@@ -156,7 +224,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "221296/2026",
@@ -168,7 +240,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "221288/2026",
@@ -180,7 +256,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "221032/2026",
@@ -192,7 +272,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "214745/2026",
@@ -204,7 +288,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "214508/2026",
@@ -216,7 +304,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "212521/2026",
@@ -228,7 +320,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210723/2026",
@@ -240,7 +336,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210715/2026",
@@ -252,7 +352,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210693/2026",
@@ -264,7 +368,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210685/2026",
@@ -276,7 +384,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210677/2026",
@@ -288,7 +400,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210642/2026",
@@ -300,7 +416,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210634/2026",
@@ -312,7 +432,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210626/2026",
@@ -324,7 +448,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210618/2026",
@@ -336,7 +464,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210600/2026",
@@ -348,7 +480,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210596/2026",
@@ -360,7 +496,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210588/2026",
@@ -372,7 +512,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210561/2026",
@@ -384,7 +528,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "210553/2026",
@@ -396,7 +544,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "208907/2026",
@@ -408,7 +560,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "207331/2026",
@@ -420,7 +576,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "207161/2026",
@@ -432,7 +592,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "207129/2026",
@@ -444,7 +608,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "207102/2026",
@@ -456,7 +624,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "206998/2026",
@@ -468,7 +640,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "206971/2026",
@@ -480,7 +656,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "206157/2026",
@@ -492,7 +672,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "205967/2026",
@@ -504,7 +688,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "205088/2026",
@@ -516,7 +704,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "204103/2026",
@@ -528,7 +720,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "202577/2026",
@@ -540,7 +736,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "200183/2026",
@@ -552,7 +752,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "198782/2026",
@@ -564,7 +768,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "198545/2026",
@@ -576,7 +784,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "196313/2026",
@@ -588,7 +800,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "196046/2026",
@@ -600,7 +816,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "195929/2026",
@@ -612,7 +832,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "195570/2026",
@@ -624,7 +848,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "194795/2026",
@@ -636,7 +864,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193861/2026",
@@ -648,7 +880,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193314/2026",
@@ -660,7 +896,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193306/2026",
@@ -672,7 +912,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193292/2026",
@@ -684,7 +928,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193276/2026",
@@ -696,7 +944,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193250/2026",
@@ -708,7 +960,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193241/2026",
@@ -720,7 +976,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193233/2026",
@@ -732,7 +992,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193225/2026",
@@ -744,7 +1008,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "193217/2026",
@@ -756,7 +1024,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "192261/2026",
@@ -768,7 +1040,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "191613/2026",
@@ -780,7 +1056,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "191435/2026",
@@ -792,7 +1072,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "191109/2026",
@@ -804,7 +1088,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "182959/2026",
@@ -816,7 +1104,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "182940/2026",
@@ -828,7 +1120,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "182916/2026",
@@ -840,7 +1136,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "180999/2026",
@@ -852,7 +1152,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "179990/2026",
@@ -864,7 +1168,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "178706/2026",
@@ -876,7 +1184,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "177696/2026",
@@ -888,7 +1200,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "177246/2026",
@@ -900,7 +1216,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "176495/2026",
@@ -912,7 +1232,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "175820/2026",
@@ -924,7 +1248,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "174859/2026",
@@ -936,7 +1264,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "174832/2026",
@@ -948,7 +1280,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "174808/2026",
@@ -960,7 +1296,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "173267/2026",
@@ -972,7 +1312,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "171264/2026",
@@ -984,7 +1328,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "166570/2026",
@@ -996,7 +1344,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "166295/2026",
@@ -1008,7 +1360,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "164624/2026",
@@ -1020,7 +1376,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "164284/2026",
@@ -1032,7 +1392,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "163857/2026",
@@ -1044,7 +1408,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "162656/2026",
@@ -1056,7 +1424,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "162117/2026",
@@ -1068,7 +1440,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "160904/2026",
@@ -1080,7 +1456,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "159060/2026",
@@ -1092,7 +1472,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "158977/2026",
@@ -1104,7 +1488,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "158667/2026",
@@ -1116,7 +1504,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "158659/2026",
@@ -1128,7 +1520,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "158640/2026",
@@ -1140,7 +1536,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "157504/2026",
@@ -1152,7 +1552,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "155390/2026",
@@ -1164,7 +1568,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "153436/2026",
@@ -1176,7 +1584,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "153428/2026",
@@ -1188,7 +1600,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "153410/2026",
@@ -1200,7 +1616,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "152480/2026",
@@ -1212,7 +1632,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "145697/2026",
@@ -1224,7 +1648,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "145352/2026",
@@ -1236,7 +1664,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144933/2026",
@@ -1248,7 +1680,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144798/2026",
@@ -1260,7 +1696,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144208/2026",
@@ -1272,7 +1712,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144194/2026",
@@ -1284,7 +1728,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144186/2026",
@@ -1296,7 +1744,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144178/2026",
@@ -1308,7 +1760,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144160/2026",
@@ -1320,7 +1776,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144151/2026",
@@ -1332,7 +1792,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "144143/2026",
@@ -1344,7 +1808,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142230/2026",
@@ -1356,7 +1824,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142221/2026",
@@ -1368,7 +1840,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142213/2026",
@@ -1380,7 +1856,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142205/2026",
@@ -1392,7 +1872,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142183/2026",
@@ -1404,7 +1888,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "142167/2026",
@@ -1416,7 +1904,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "139964/2026",
@@ -1428,7 +1920,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "138267/2026",
@@ -1439,8 +1935,12 @@
    "encam": "2026-07-07T18:13:00.000Z",
    "situacao": "Em análise",
    "prioridade": "normal",
-   "responsavel": "",
-   "desde": null
+   "responsavel": "Brenno",
+   "desde": "2026-07-07T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "Pregão",
+   "numeroProcesso": "92/2026",
+   "statusFinal": ""
   },
   {
    "demanda": "138135/2026",
@@ -1452,7 +1952,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "136531/2026",
@@ -1464,7 +1968,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "Eduardo",
-   "desde": "2026-07-14T03:00:00.000Z"
+   "desde": "2026-07-14T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "136205/2026",
@@ -1476,7 +1984,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "136191/2026",
@@ -1488,7 +2000,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "136183/2026",
@@ -1500,7 +2016,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "136175/2026",
@@ -1512,7 +2032,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "135322/2026",
@@ -1524,7 +2048,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134881/2026",
@@ -1536,7 +2064,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134873/2026",
@@ -1548,7 +2080,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134865/2026",
@@ -1560,7 +2096,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134849/2026",
@@ -1572,7 +2112,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134830/2026",
@@ -1584,7 +2128,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134822/2026",
@@ -1596,7 +2144,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134482/2026",
@@ -1608,7 +2160,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "134440/2026",
@@ -1620,7 +2176,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "133192/2026",
@@ -1632,7 +2192,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "132846/2026",
@@ -1644,7 +2208,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "130347/2026",
@@ -1656,7 +2224,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "130339/2026",
@@ -1668,7 +2240,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "130320/2026",
@@ -1680,7 +2256,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "127362/2026",
@@ -1692,7 +2272,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "126650/2026",
@@ -1704,7 +2288,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "126293/2026",
@@ -1716,7 +2304,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "126200/2026",
@@ -1728,7 +2320,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "122280/2026",
@@ -1740,7 +2336,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "122158/2026",
@@ -1752,7 +2352,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "117367/2026",
@@ -1764,7 +2368,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "116980/2026",
@@ -1776,7 +2384,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "116760/2026",
@@ -1788,7 +2400,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "115992/2026",
@@ -1800,7 +2416,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "114970/2026",
@@ -1812,7 +2432,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "113523/2026",
@@ -1824,7 +2448,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "111601/2026",
@@ -1836,7 +2464,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "106764/2026",
@@ -1848,7 +2480,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "104613/2026",
@@ -1860,7 +2496,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "104583/2026",
@@ -1872,7 +2512,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "104567/2026",
@@ -1884,7 +2528,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "102440/2026",
@@ -1896,7 +2544,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "101452/2026",
@@ -1908,7 +2560,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100731/2026",
@@ -1920,7 +2576,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100715/2026",
@@ -1932,7 +2592,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100707/2026",
@@ -1944,7 +2608,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100693/2026",
@@ -1956,7 +2624,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100685/2026",
@@ -1968,7 +2640,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100480/2026",
@@ -1980,7 +2656,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "100464/2026",
@@ -1992,7 +2672,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "99547/2026",
@@ -2004,7 +2688,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "99520/2026",
@@ -2016,7 +2704,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "99245/2026",
@@ -2028,7 +2720,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "98664/2026",
@@ -2040,7 +2736,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "97056/2026",
@@ -2052,7 +2752,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "96190/2026",
@@ -2064,7 +2768,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "96165/2026",
@@ -2076,7 +2784,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "96130/2026",
@@ -2088,7 +2800,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "94340/2026",
@@ -2100,7 +2816,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "94200/2026",
@@ -2112,7 +2832,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "94170/2026",
@@ -2124,7 +2848,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "93352/2026",
@@ -2136,7 +2864,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "92160/2026",
@@ -2148,7 +2880,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "91635/2026",
@@ -2160,7 +2896,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "91317/2026",
@@ -2172,7 +2912,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "89827/2026",
@@ -2184,7 +2928,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "87964/2026",
@@ -2196,7 +2944,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "87883/2026",
@@ -2208,7 +2960,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "87824/2026",
@@ -2220,7 +2976,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "87794/2026",
@@ -2232,7 +2992,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "87247/2026",
@@ -2244,7 +3008,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "82970/2026",
@@ -2256,7 +3024,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "82873/2026",
@@ -2268,7 +3040,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "81834/2026",
@@ -2280,7 +3056,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "81826/2026",
@@ -2292,7 +3072,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "80013/2026",
@@ -2304,7 +3088,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "79368/2026",
@@ -2316,7 +3104,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "78663/2026",
@@ -2328,7 +3120,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "78426/2026",
@@ -2340,7 +3136,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "76407/2026",
@@ -2352,7 +3152,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "75125/2026",
@@ -2364,7 +3168,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "73955/2026",
@@ -2376,7 +3184,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "73866/2026",
@@ -2388,7 +3200,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "73432/2026",
@@ -2400,7 +3216,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "73238/2026",
@@ -2412,7 +3232,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "72827/2026",
@@ -2424,7 +3248,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "70905/2026",
@@ -2436,7 +3264,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "69753/2026",
@@ -2448,7 +3280,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "67998/2026",
@@ -2460,7 +3296,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "67971/2026",
@@ -2472,7 +3312,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "67343/2026",
@@ -2484,7 +3328,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "67289/2026",
@@ -2496,7 +3344,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "66681/2026",
@@ -2508,7 +3360,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "66380/2026",
@@ -2520,7 +3376,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "64549/2026",
@@ -2532,7 +3392,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "64514/2026",
@@ -2544,7 +3408,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "64492/2026",
@@ -2556,7 +3424,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "64069/2026",
@@ -2568,7 +3440,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "63550/2026",
@@ -2580,7 +3456,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "63534/2026",
@@ -2592,7 +3472,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "63500/2026",
@@ -2604,7 +3488,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "63100/2026",
@@ -2616,7 +3504,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "62791/2026",
@@ -2628,7 +3520,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "62007/2026",
@@ -2640,7 +3536,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "61361/2026",
@@ -2652,7 +3552,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "61310/2026",
@@ -2664,7 +3568,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "58670/2026",
@@ -2676,7 +3584,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "58433/2026",
@@ -2688,7 +3600,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "58115/2026",
@@ -2700,7 +3616,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "57860/2026",
@@ -2712,7 +3632,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "55582/2026",
@@ -2724,7 +3648,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "55027/2026",
@@ -2736,7 +3664,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "52842/2026",
@@ -2748,7 +3680,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "52532/2026",
@@ -2760,7 +3696,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "52508/2026",
@@ -2772,7 +3712,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "52184/2026",
@@ -2784,7 +3728,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "51978/2026",
@@ -2796,7 +3744,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "51170/2026",
@@ -2808,7 +3760,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "50858/2026",
@@ -2820,7 +3776,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "49221/2026",
@@ -2832,7 +3792,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "49167/2026",
@@ -2844,7 +3808,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "48012/2026",
@@ -2856,7 +3824,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "43738/2026",
@@ -2868,7 +3840,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "43150/2026",
@@ -2880,7 +3856,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "41980/2026",
@@ -2892,7 +3872,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "41891/2026",
@@ -2904,7 +3888,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "41808/2026",
@@ -2916,7 +3904,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "40852/2026",
@@ -2928,7 +3920,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "40046/2026",
@@ -2940,7 +3936,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "39889/2026",
@@ -2952,7 +3952,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "39439/2026",
@@ -2964,7 +3968,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "38505/2026",
@@ -2976,7 +3984,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "37851/2026",
@@ -2988,7 +4000,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "30652/2026",
@@ -3000,7 +4016,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "30644/2026",
@@ -3012,7 +4032,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "28585/2026",
@@ -3024,7 +4048,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "27660/2026",
@@ -3036,7 +4064,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "27490/2026",
@@ -3048,7 +4080,11 @@
    "situacao": "Concluída",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "27406/2026",
@@ -3060,7 +4096,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "25667/2026",
@@ -3072,7 +4112,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "25586/2026",
@@ -3084,7 +4128,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "25152/2026",
@@ -3096,7 +4144,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "20770/2026",
@@ -3108,7 +4160,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "20541/2026",
@@ -3120,7 +4176,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "19535/2026",
@@ -3132,7 +4192,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "19446/2026",
@@ -3144,7 +4208,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "18920/2026",
@@ -3156,7 +4224,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "18504/2026",
@@ -3168,7 +4240,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "18440/2026",
@@ -3180,7 +4256,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "16811/2026",
@@ -3192,7 +4272,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "15505/2026",
@@ -3204,7 +4288,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "12182/2026",
@@ -3216,7 +4304,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "10120/2026",
@@ -3228,7 +4320,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "9963/2026",
@@ -3240,7 +4336,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "9165/2026",
@@ -3252,7 +4352,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "9009/2026",
@@ -3264,7 +4368,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8991/2026",
@@ -3276,7 +4384,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8851/2026",
@@ -3288,7 +4400,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8614/2026",
@@ -3300,7 +4416,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8479/2026",
@@ -3312,7 +4432,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8320/2026",
@@ -3324,7 +4448,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8274/2026",
@@ -3336,7 +4464,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8231/2026",
@@ -3348,7 +4480,11 @@
    "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "8169/2026",
@@ -3360,7 +4496,11 @@
    "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "7510/2026",
@@ -3372,7 +4512,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "7413/2026",
@@ -3384,7 +4528,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "7367/2026",
@@ -3396,7 +4544,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "6344/2026",
@@ -3408,7 +4560,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "6298/2026",
@@ -3420,7 +4576,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "5747/2026",
@@ -3432,7 +4592,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "5674/2026",
@@ -3444,7 +4608,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "3477/2026",
@@ -3456,7 +4624,11 @@
    "situacao": "Analisada",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "2918/2026",
@@ -3468,7 +4640,11 @@
    "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "2268/2026",
@@ -3476,11 +4652,15 @@
    "finalidade": "Insumos de informática para manutenção, adaptação e suporte técnico de equipamentos do Instituto de Geociências da USP, incluindo conectividade, armazenamento e monitoramento ambiental.",
    "requisitante": "Erickson Zanon",
    "cadastro": "2026-01-07T18:08:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
+   "encam": "2026-07-27T12:17:00.000Z",
+   "situacao": "P/ Autorizador",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "1571/2026",
@@ -3492,7 +4672,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   },
   {
    "demanda": "1040/2026",
@@ -3504,7 +4688,11 @@
    "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
-   "desde": null
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
   }
  ]
 }
