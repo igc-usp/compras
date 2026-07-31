@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-07-31T18:41:08.654Z",
+ "atualizadoEm": "2026-07-31T19:04:40.345Z",
  "compras": {
   "empenhadas": 41,
   "valorEfetivado": 765038.38,
@@ -4897,6 +4897,22 @@
    "prioridade": "normal",
    "responsavel": "",
    "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
+  },
+  {
+   "demanda": "265151/2025",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de 36 kits para microscópios petrográficos binoculares Olympus BXP-40 do Laboratório Didático de Microscopia Petrográfica (LDMP) do IGc-USP. \n(grupo orçamentário 044406 Programa de Apoio ao Aprimoramento do Ensino de Graduação)",
+   "requisitante": "Eliane Aparecida",
+   "cadastro": "2025-08-24T16:46:00.000Z",
+   "encam": "2026-07-13T16:55:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Brenno",
+   "desde": "2026-07-31T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
