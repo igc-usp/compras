@@ -92,7 +92,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       <div class="panel"><h3>Carga por funcionário (demandas em mãos)</h3><div class="chart-wrap"><canvas id="chCarga"></canvas></div></div>
     </div>
     <div class="grid2">
-      <div class="panel"><h3>Demandas cadastradas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
+      <div class="panel"><h3>Demandas de Compra cadastradas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
       <div class="panel"><h3>Gargalos e alertas</h3><ul class="gargalos" id="gargalos"></ul></div>
     </div>
     <div class="panel" style="margin-bottom:16px">
@@ -233,7 +233,7 @@ function render(){
     options:{maintainAspectRatio:false, scales:{x:{stacked:true},y:{stacked:true,ticks:{precision:0}}}, plugins:{legend:{position:"bottom"}}}});
 
   const porMes = {};
-  m.rows.forEach(r=>{ if(r.cadD){ const k = r.cadD.getFullYear()+"-"+String(r.cadD.getMonth()+1).padStart(2,"0"); porMes[k]=(porMes[k]||0)+1; } });
+  m.rows.filter(r=>r.tipo==="Compra").forEach(r=>{ if(r.cadD){ const k = r.cadD.getFullYear()+"-"+String(r.cadD.getMonth()+1).padStart(2,"0"); porMes[k]=(porMes[k]||0)+1; } });
   const meses = Object.keys(porMes).sort();
   charts.m = new Chart($("chMes"), {type:"bar",
     data:{labels:meses.map(k=>k.slice(5,7)+"/"+k.slice(0,4)), datasets:[{label:"Cadastradas", data:meses.map(k=>porMes[k]), backgroundColor:CORES.navy}]},
