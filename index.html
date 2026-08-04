@@ -105,7 +105,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       <div class="filtros">
         <input type="text" id="fBusca" placeholder="Buscar por finalidade, requisitante ou nº da demanda…" style="min-width:230px">
         <select id="fTipo"><option value="Compra">Tipo: Compra</option><option>Adiantamento</option><option>Adesão</option><option>AdesãoRP</option><option>Aditamento</option><option value="__todos">Todos os tipos</option></select>
-        <select id="fSit"><option value="__todas">Todas as situações</option><option value="Para compras">Para compras</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option><option>Cancelada</option></select>
+        <select id="fSit"><option value="__todas">Todas as situações</option><option value="Para compras">Para compras</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option></select>
         <select id="fPrio"><option value="">Prioridade: todas</option><option value="urgente">Urgente</option><option value="prioritario">Prioritário</option><option value="normal">Normal</option></select>
         <select id="fResp"><option value="">Responsável: todos</option><option value="__sem">— Na fila (sem responsável)</option><option value="__maos">Em mãos (todos)</option></select>
         <span id="fCount" style="color:var(--muted);font-size:12px"></span>
@@ -123,6 +123,17 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       </div>
     </div>
   </div>
+
+  <a href="https://docs.google.com/spreadsheets/d/1lZcsrzvsZ_hrrqGKiY-qd_OznQcDi8citd-BDCEZNMk" target="_blank" rel="noopener" style="display:block;text-decoration:none;margin-top:16px">
+    <div style="display:flex;align-items:center;gap:14px;background:#F0F7F1;border:1px solid #BBD8C0;border-left:5px solid #1E7145;border-radius:6px;padding:14px 16px">
+      <div style="width:34px;height:34px;background:#1E7145;border-radius:6px;color:#fff;display:flex;align-items:center;justify-content:center;font-size:17px;font-weight:bold;flex-shrink:0">⊞</div>
+      <div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#1E7145">Planilha de Compras da Seção — acesso direto</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5B6B7E;margin-top:2px">Aberta para leitura do público geral · Edição restrita aos servidores da Seção de Compras · Clique para abrir no Google Planilhas</div>
+      </div>
+    </div>
+  </a>
+
   <div class="erro" id="erro" style="display:none"><b>Não foi possível carregar dados.json.</b><br>Verifique se o arquivo está na mesma pasta do painel no repositório.</div>
 </main>
 <footer>Ordenação da tabela: urgentes primeiro, depois prioritárias e, dentro de cada grupo, da demanda mais recente para a mais antiga. Faixas de alerta: acima de 30 dias em atenção, acima de 90 dias em crítico. "Na fila" significa demanda autorizada aguardando distribuição; "em mãos" significa demanda designada a um funcionário, que a conduz do início ao empenho. Dados extraídos do Sistema Administrativo USP e publicados pela Seção de Compras; este painel não substitui os registros oficiais.</footer>
@@ -148,7 +159,7 @@ function rowsVivas(){
             prio: r.prioridade||"normal", resp: r.responsavel||"", fim: r.finalizada||null,
             mod: r.modalidade||"", num: r.numeroProcesso||"", stat: r.statusFinal||"",
             idade: enc ? dias(enc) : null};
-  });
+  }).filter(r => r.situacao !== "Cancelada" && !(r.situacao === "Em elaboração" && !r.encamD));
 }
 function medidas(){
   const rows = rowsVivas();
