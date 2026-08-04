@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-04T13:46:15.232Z",
+ "atualizadoEm": "2026-08-04T15:48:44.565Z",
  "compras": {
   "empenhadas": 43,
   "valorEfetivado": 1964438.38,
@@ -20,7 +20,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-08-04T00:00:00.000Z"
   },
   {
    "demanda": "239861/2026",
@@ -28,15 +30,17 @@
    "finalidade": "Transmitir conteúdo digital sem fio para TVs e datashows.",
    "requisitante": "Erickson Zanon",
    "cadastro": "2026-08-03T18:52:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
+   "encam": "2026-08-04T14:46:00.000Z",
+   "situacao": "Em análise",
    "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
+   "responsavel": "Thiago",
+   "desde": "2026-08-03T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-08-04T00:00:00.000Z"
   },
   {
    "demanda": "237338/2026",
@@ -52,7 +56,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-31T00:00:00.000Z"
   },
   {
    "demanda": "235661/2026",
@@ -68,7 +74,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "234975/2026",
@@ -84,7 +92,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "234169/2026",
@@ -100,7 +110,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "234142/2026",
@@ -116,7 +128,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "231232/2026",
@@ -132,7 +146,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "231208/2026",
@@ -148,7 +164,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-27T00:00:00.000Z"
   },
   {
    "demanda": "231054/2026",
@@ -164,7 +182,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230996/2026",
@@ -180,7 +200,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230970/2026",
@@ -196,7 +218,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230961/2026",
@@ -212,7 +236,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230953/2026",
@@ -228,7 +254,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230945/2026",
@@ -244,7 +272,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "230481/2026",
@@ -260,7 +290,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-24T00:00:00.000Z"
   },
   {
    "demanda": "230210/2026",
@@ -276,7 +308,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "228991/2026",
@@ -292,7 +326,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-23T00:00:00.000Z"
   },
   {
    "demanda": "228932/2026",
@@ -308,7 +344,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-25T00:00:00.000Z"
   },
   {
    "demanda": "228886/2026",
@@ -324,7 +362,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "228401/2026",
@@ -340,7 +380,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "228169/2026",
@@ -356,7 +398,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "227600/2026",
@@ -372,7 +416,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "227502/2026",
@@ -388,7 +434,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "227022/2026",
@@ -404,7 +452,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-27T00:00:00.000Z"
   },
   {
    "demanda": "227006/2026",
@@ -420,7 +470,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "224333/2026",
@@ -436,7 +488,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-17T00:00:00.000Z"
   },
   {
    "demanda": "223817/2026",
@@ -452,7 +506,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "223612/2026",
@@ -468,7 +524,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-17T00:00:00.000Z"
   },
   {
    "demanda": "221296/2026",
@@ -484,7 +542,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-17T00:00:00.000Z"
   },
   {
    "demanda": "221288/2026",
@@ -500,7 +560,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-15T00:00:00.000Z"
   },
   {
    "demanda": "221032/2026",
@@ -516,7 +578,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-15T00:00:00.000Z"
   },
   {
    "demanda": "214745/2026",
@@ -532,7 +596,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "214508/2026",
@@ -548,7 +614,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-14T00:00:00.000Z"
   },
   {
    "demanda": "212521/2026",
@@ -564,7 +632,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-03T00:00:00.000Z"
   },
   {
    "demanda": "210723/2026",
@@ -580,7 +650,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210715/2026",
@@ -596,7 +668,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210693/2026",
@@ -612,7 +686,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210685/2026",
@@ -628,7 +704,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210677/2026",
@@ -644,7 +722,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210642/2026",
@@ -660,7 +740,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210634/2026",
@@ -676,7 +758,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210626/2026",
@@ -692,7 +776,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210618/2026",
@@ -708,7 +794,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210600/2026",
@@ -724,7 +812,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210596/2026",
@@ -740,7 +830,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210588/2026",
@@ -756,7 +848,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210561/2026",
@@ -772,7 +866,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "210553/2026",
@@ -788,7 +884,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "208907/2026",
@@ -804,7 +902,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-01T00:00:00.000Z"
   },
   {
    "demanda": "207331/2026",
@@ -820,7 +920,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "207161/2026",
@@ -836,7 +938,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "207129/2026",
@@ -852,7 +956,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "207102/2026",
@@ -868,7 +974,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-01T00:00:00.000Z"
   },
   {
    "demanda": "206998/2026",
@@ -884,7 +992,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "206971/2026",
@@ -900,7 +1010,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "206157/2026",
@@ -916,7 +1028,9 @@
    "finalizada": null,
    "modalidade": "Inexigibilidade",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-29T00:00:00.000Z"
   },
   {
    "demanda": "205967/2026",
@@ -932,7 +1046,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-29T00:00:00.000Z"
   },
   {
    "demanda": "205088/2026",
@@ -948,7 +1064,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-26T00:00:00.000Z"
   },
   {
    "demanda": "204103/2026",
@@ -964,7 +1082,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-12T00:00:00.000Z"
   },
   {
    "demanda": "202577/2026",
@@ -980,7 +1100,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "200183/2026",
@@ -996,7 +1118,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-24T00:00:00.000Z"
   },
   {
    "demanda": "198782/2026",
@@ -1012,7 +1136,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-22T00:00:00.000Z"
   },
   {
    "demanda": "198545/2026",
@@ -1028,7 +1154,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-26T00:00:00.000Z"
   },
   {
    "demanda": "196313/2026",
@@ -1044,7 +1172,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-18T00:00:00.000Z"
   },
   {
    "demanda": "196046/2026",
@@ -1060,7 +1190,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-22T00:00:00.000Z"
   },
   {
    "demanda": "195929/2026",
@@ -1076,7 +1208,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "195570/2026",
@@ -1092,7 +1226,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-17T00:00:00.000Z"
   },
   {
    "demanda": "194795/2026",
@@ -1108,7 +1244,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "193861/2026",
@@ -1124,7 +1262,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-16T00:00:00.000Z"
   },
   {
    "demanda": "193314/2026",
@@ -1140,7 +1280,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193306/2026",
@@ -1156,7 +1298,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193292/2026",
@@ -1172,7 +1316,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193276/2026",
@@ -1188,7 +1334,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193250/2026",
@@ -1204,7 +1352,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193241/2026",
@@ -1220,7 +1370,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193233/2026",
@@ -1236,7 +1388,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "193225/2026",
@@ -1252,7 +1406,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-14T00:00:00.000Z"
   },
   {
    "demanda": "193217/2026",
@@ -1268,7 +1424,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-12T00:00:00.000Z"
   },
   {
    "demanda": "192261/2026",
@@ -1284,7 +1442,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-16T00:00:00.000Z"
   },
   {
    "demanda": "191613/2026",
@@ -1300,7 +1460,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-02T00:00:00.000Z"
   },
   {
    "demanda": "191435/2026",
@@ -1316,7 +1478,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-12T00:00:00.000Z"
   },
   {
    "demanda": "191109/2026",
@@ -1332,7 +1496,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-12T00:00:00.000Z"
   },
   {
    "demanda": "182959/2026",
@@ -1348,7 +1514,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "182940/2026",
@@ -1364,7 +1532,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "182916/2026",
@@ -1380,7 +1550,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "180999/2026",
@@ -1396,7 +1568,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "179990/2026",
@@ -1412,7 +1586,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-01T00:00:00.000Z"
   },
   {
    "demanda": "178706/2026",
@@ -1428,7 +1604,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-31T00:00:00.000Z"
   },
   {
    "demanda": "177696/2026",
@@ -1444,7 +1622,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-29T00:00:00.000Z"
   },
   {
    "demanda": "177246/2026",
@@ -1460,7 +1640,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "176495/2026",
@@ -1476,7 +1658,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-01T00:00:00.000Z"
   },
   {
    "demanda": "175820/2026",
@@ -1492,7 +1676,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-17T00:00:00.000Z"
   },
   {
    "demanda": "174859/2026",
@@ -1508,7 +1694,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-27T00:00:00.000Z"
   },
   {
    "demanda": "174832/2026",
@@ -1524,7 +1712,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "174808/2026",
@@ -1540,7 +1730,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "173267/2026",
@@ -1556,7 +1748,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-27T00:00:00.000Z"
   },
   {
    "demanda": "171264/2026",
@@ -1572,7 +1766,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "166570/2026",
@@ -1588,7 +1784,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "166295/2026",
@@ -1604,7 +1802,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "164624/2026",
@@ -1620,7 +1820,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-18T00:00:00.000Z"
   },
   {
    "demanda": "164284/2026",
@@ -1636,7 +1838,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "163857/2026",
@@ -1652,7 +1856,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-18T00:00:00.000Z"
   },
   {
    "demanda": "162656/2026",
@@ -1668,7 +1874,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "162117/2026",
@@ -1684,7 +1892,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-18T00:00:00.000Z"
   },
   {
    "demanda": "160904/2026",
@@ -1700,7 +1910,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-13T00:00:00.000Z"
   },
   {
    "demanda": "159060/2026",
@@ -1716,7 +1928,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-13T00:00:00.000Z"
   },
   {
    "demanda": "158977/2026",
@@ -1732,7 +1946,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-13T00:00:00.000Z"
   },
   {
    "demanda": "158667/2026",
@@ -1748,7 +1964,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "158659/2026",
@@ -1764,7 +1982,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "158640/2026",
@@ -1780,7 +2000,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "157504/2026",
@@ -1796,7 +2018,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-13T00:00:00.000Z"
   },
   {
    "demanda": "155390/2026",
@@ -1812,7 +2036,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-22T00:00:00.000Z"
   },
   {
    "demanda": "153436/2026",
@@ -1828,7 +2054,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-06-12T00:00:00.000Z"
   },
   {
    "demanda": "153428/2026",
@@ -1844,7 +2072,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "153410/2026",
@@ -1860,7 +2090,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "152480/2026",
@@ -1876,7 +2108,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "145697/2026",
@@ -1892,7 +2126,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-04T00:00:00.000Z"
   },
   {
    "demanda": "145352/2026",
@@ -1908,7 +2144,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-04T00:00:00.000Z"
   },
   {
    "demanda": "144933/2026",
@@ -1924,7 +2162,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-04T00:00:00.000Z"
   },
   {
    "demanda": "144798/2026",
@@ -1940,7 +2180,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-05-04T00:00:00.000Z"
   },
   {
    "demanda": "144208/2026",
@@ -1956,7 +2198,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144194/2026",
@@ -1972,7 +2216,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144186/2026",
@@ -1988,7 +2234,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144178/2026",
@@ -2004,7 +2252,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144160/2026",
@@ -2020,7 +2270,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144151/2026",
@@ -2036,7 +2288,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "144143/2026",
@@ -2052,7 +2306,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142230/2026",
@@ -2068,7 +2324,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142221/2026",
@@ -2084,7 +2342,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142213/2026",
@@ -2100,7 +2360,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142205/2026",
@@ -2116,7 +2378,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142183/2026",
@@ -2132,535 +2396,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "64492/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Aquisição de chá a granel, utilizado na Biblioteca do Instituto.",
-   "requisitante": "Angela Mitie",
-   "cadastro": "2026-02-25T12:16:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "64069/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Compra de Disco de Tacógrafo para o veículo Micro Ônibus, placa DJP 7656, patrim. 8396, utilizado por docentes e alunos em atividades didáticas.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-24T19:29:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "63550/2026",
-   "tipo": "Compra",
-   "finalidade": "Reposição de produto utilizado em equipamento/impressora da Seção de Transporte do I.G.c.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-24T17:17:00.000Z",
-   "encam": "2026-02-25T18:34:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "63534/2026",
-   "tipo": "Aditamento",
-   "finalidade": "Toner para impressora Laser Jet Pro MFP M428fdw da Seção de Transporte.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-24T17:10:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "63500/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Pagamento do exame toxicológico para o funcionário, Ubiratan cordeiro da Silva Lima, Nº USP 7015851 lotado no Instituto de Geociências/USP na Seção de Transporte.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-24T17:04:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "63100/2026",
-   "tipo": "Compra",
-   "finalidade": "Monitoramento eletrônico das dependências do Instituto.",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-02-24T14:14:00.000Z",
-   "encam": "2026-08-04T13:15:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-23T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "62791/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Naterial de escritório para repor na Seção.",
-   "requisitante": "Claudia de",
-   "cadastro": "2026-02-24T13:07:00.000Z",
-   "encam": "2026-02-24T13:08:00.000Z",
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "62007/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de fios, Cabos e materiais isolante para manutenção e conservação para melhor atender o Instituto de Geociências.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-23T19:22:00.000Z",
-   "encam": "2026-07-21T11:56:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-27T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "61361/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de 10 nobreaks senoidais para fornecimento de energia ininterrupta para a ampliação da capacidade do LIG.",
-   "requisitante": "Antonio Tadashi",
-   "cadastro": "2026-02-23T16:40:00.000Z",
-   "encam": "2026-03-05T17:59:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "61310/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de 10 teclados, 10 mouses com fio, 5 dispositivos de armazenamento tipo estado sólido e 5 dispositivos de armazenamento do tipo disco rígido para reposição em casos de falhas não programadas.",
-   "requisitante": "Antonio Tadashi",
-   "cadastro": "2026-02-23T15:56:00.000Z",
-   "encam": null,
-   "situacao": "Cancelada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "58670/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Aferição  e conserto de Tacógrafo para o veículo Micro Ônibus Induscar Foz VWod placa: DJP 7656 patrimônio 044.008396. Utilizados por docentes e alunos em atividades de aula de campo do I.G.c.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-20T12:44:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "58433/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de dois quadros brancos de vidro para instalação após a reforma do LIG e compra de 60 cadeiras em substituição das antigas e ampliação da capacidade após a reforma do LIG.\nAquisição com a verba 044406 - Aprimoramento - Graduação",
-   "requisitante": "Antonio Tadashi",
-   "cadastro": "2026-02-20T11:05:00.000Z",
-   "encam": "2026-02-24T18:36:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "58115/2026",
-   "tipo": "Compra",
-   "finalidade": "Produtos para diversas reuniões do IGc, eventos, simposios, bancas examinadoras, Diretoria, Vice-Diretoria, CTA, Congregação e reuniões das Comissões Institucionais.",
-   "requisitante": "Denise Cristina",
-   "cadastro": "2026-02-19T18:58:00.000Z",
-   "encam": "2026-03-04T13:34:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "57860/2026",
-   "tipo": "Compra",
-   "finalidade": "Melhorar a  distribuição e qualidade sonora nos eventos realizados no IGc",
-   "requisitante": "Paulo Ishiyama",
-   "cadastro": "2026-02-19T17:46:00.000Z",
-   "encam": "2026-03-06T13:08:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "55582/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de telas de projeção e projetores Full HD para uso no LIG e em salas de aula do IGc e no pátio. (Verba 044406 - Aprimoramento do ensino de graduação)",
-   "requisitante": "Antonio Tadashi",
-   "cadastro": "2026-02-13T17:07:00.000Z",
-   "encam": "2026-03-06T13:07:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "55027/2026",
-   "tipo": "Compra",
-   "finalidade": "Edital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante\nServiço de troca de peça LCD para impressora 3D.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-02-13T13:46:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "52842/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Taxa de recolhimento da União 'Imetro/Tacógrafo' Veículo Micro Ônibus Induscar Foz VWOD, Placa: DJP 7656, patrim. 044.005148. Utilizados por docentes e alunos em atividades de aula de campo.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-02-12T13:37:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "52532/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de baterias de UPS (NoBreak) para reposição e substituição das baterias antigas nos NoBreaks do LIG",
-   "requisitante": "Antonio Tadashi",
-   "cadastro": "2026-02-12T12:25:00.000Z",
-   "encam": "2026-02-25T13:30:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "52508/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Baterias para as telas de projeção a ser utilizadas em diversas salas de aulas do IGc",
-   "requisitante": "Paulo Ishiyama",
-   "cadastro": "2026-02-12T12:23:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "52184/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação de aluguel e serviço de montagem de stand (estande) de exposição (6m²) para o 52º Congresso Brasileiro de Geologia em Fortaleza CE.",
-   "requisitante": "Wagner Venancio",
-   "cadastro": "2026-02-11T20:05:00.000Z",
-   "encam": "2026-02-11T21:56:00.000Z",
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "51978/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Para compor o kit Calouros 2026.",
-   "requisitante": "Bianca Watermann",
-   "cadastro": "2026-02-11T19:07:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "51170/2026",
-   "tipo": "Compra",
-   "finalidade": "O lubrificante aérosol é utilizado por funcionários, alunos e professores, na lubrificação adequada de máquinas, ferramentas e equipamentos utilizados nas atividades diárias. Aquisição necessária para reposição do estoque do Almoxarifado. DFD n° 94/2025.",
-   "requisitante": "Rita de",
-   "cadastro": "2026-02-11T14:26:00.000Z",
-   "encam": "2026-02-12T12:30:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "50858/2026",
-   "tipo": "Compra",
-   "finalidade": "Item necessário para produção de impressões 3D\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-02-11T13:14:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "49221/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de aparelho interfone funcionamento na  portaria para segurança do prédio, tem por objetivo o vigilante ver quem está chamando do outro lado do portão já que o aparelho vai ficar no portão carga e descarga.",
-   "requisitante": "Antonio Soares",
-   "cadastro": "2026-02-10T17:50:00.000Z",
-   "encam": "2026-07-23T14:03:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "49167/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação de serviço de Desinsetização específica para escorpiões e Desratização para os prédios do Instituto de Geociências",
-   "requisitante": "Cristina Maura",
-   "cadastro": "2026-02-10T17:45:00.000Z",
-   "encam": "2026-06-25T14:31:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "48012/2026",
-   "tipo": "Compra",
-   "finalidade": "Melhorar captação de áudio em palestras e eventos no Instituto.",
-   "requisitante": "Paulo Ishiyama",
-   "cadastro": "2026-02-10T13:31:00.000Z",
-   "encam": "2026-03-06T13:08:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "43738/2026",
-   "tipo": "Compra",
-   "finalidade": "Suporte a equipamentos micro-LIBS do Laboratório de Geobiologia Analítica.",
-   "requisitante": "Douglas Galante",
-   "cadastro": "2026-02-06T17:10:00.000Z",
-   "encam": "2026-02-11T12:37:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "43150/2026",
-   "tipo": "Compra",
-   "finalidade": "Uso como equipamento de pesquisa no Laboratório de Geobiologia Analítica.",
-   "requisitante": "Douglas Galante",
-   "cadastro": "2026-02-06T13:33:00.000Z",
-   "encam": "2026-05-21T18:37:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "41980/2026",
-   "tipo": "Compra",
-   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
-   "requisitante": "Leonardo José",
-   "cadastro": "2026-02-05T18:26:00.000Z",
-   "encam": "2026-03-17T17:37:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "41891/2026",
-   "tipo": "Compra",
-   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
-   "requisitante": "Leonardo José",
-   "cadastro": "2026-02-05T18:04:00.000Z",
-   "encam": "2026-07-06T11:38:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "41808/2026",
-   "tipo": "Compra",
-   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
-   "requisitante": "Leonardo José",
-   "cadastro": "2026-02-05T17:43:00.000Z",
-   "encam": "2026-03-18T13:34:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "40852/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação voltada à execução de serviços de manutenção de elevada complexidade e especificidade técnica para o equipamento de Microssonda Eletrônica.",
-   "requisitante": "Roger Wallace",
-   "cadastro": "2026-02-05T13:23:00.000Z",
-   "encam": "2026-04-01T19:11:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "40046/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de sistema de armazenamento e arquivamento deslizante para o acondicionamento dos fósseis do Laboratório de Paleontologia Sistemática do IGc\nRecurso Professora Juliana de Moraes Leme Basso - Grupo 044-206 - Infraestrutura de Pesquisa e Biotério.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-02-04T19:02:00.000Z",
-   "encam": "2026-07-13T19:34:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "Brenno",
-   "desde": "2026-07-31T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "142167/2026",
@@ -2676,7 +2414,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-27T00:00:00.000Z"
   },
   {
    "demanda": "139964/2026",
@@ -2692,7 +2432,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-28T00:00:00.000Z"
   },
   {
    "demanda": "138267/2026",
@@ -2708,7 +2450,9 @@
    "finalizada": null,
    "modalidade": "Pregão",
    "numeroProcesso": "92/2026",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-27T00:00:00.000Z"
   },
   {
    "demanda": "138135/2026",
@@ -2724,7 +2468,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-27T00:00:00.000Z"
   },
   {
    "demanda": "136531/2026",
@@ -2740,7 +2486,9 @@
    "finalizada": null,
    "modalidade": "Dispensa",
    "numeroProcesso": "86/2026",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-24T00:00:00.000Z"
   },
   {
    "demanda": "136205/2026",
@@ -2756,7 +2504,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "136191/2026",
@@ -2772,7 +2522,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-27T00:00:00.000Z"
   },
   {
    "demanda": "136183/2026",
@@ -2788,7 +2540,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "136175/2026",
@@ -2804,7 +2558,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "135322/2026",
@@ -2820,7 +2576,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134881/2026",
@@ -2836,7 +2594,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134873/2026",
@@ -2852,7 +2612,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134865/2026",
@@ -2868,7 +2630,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134849/2026",
@@ -2884,7 +2648,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134830/2026",
@@ -2900,7 +2666,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134822/2026",
@@ -2916,7 +2684,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134482/2026",
@@ -2932,7 +2702,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "134440/2026",
@@ -2948,7 +2720,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "133192/2026",
@@ -2964,7 +2738,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "132846/2026",
@@ -2980,7 +2756,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-17T00:00:00.000Z"
   },
   {
    "demanda": "130347/2026",
@@ -2996,7 +2774,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-15T00:00:00.000Z"
   },
   {
    "demanda": "130339/2026",
@@ -3012,7 +2792,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-15T00:00:00.000Z"
   },
   {
    "demanda": "130320/2026",
@@ -3028,7 +2810,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-15T00:00:00.000Z"
   },
   {
    "demanda": "127362/2026",
@@ -3044,7 +2828,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-14T00:00:00.000Z"
   },
   {
    "demanda": "126650/2026",
@@ -3060,7 +2846,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-13T00:00:00.000Z"
   },
   {
    "demanda": "126293/2026",
@@ -3076,7 +2864,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-13T00:00:00.000Z"
   },
   {
    "demanda": "126200/2026",
@@ -3092,7 +2882,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "122280/2026",
@@ -3108,7 +2900,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "122158/2026",
@@ -3124,7 +2918,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-06T00:00:00.000Z"
   },
   {
    "demanda": "117367/2026",
@@ -3140,7 +2936,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "116980/2026",
@@ -3156,7 +2954,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-13T00:00:00.000Z"
   },
   {
    "demanda": "116760/2026",
@@ -3172,7 +2972,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-06T00:00:00.000Z"
   },
   {
    "demanda": "115992/2026",
@@ -3188,7 +2990,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-06T00:00:00.000Z"
   },
   {
    "demanda": "114970/2026",
@@ -3204,7 +3008,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-02T00:00:00.000Z"
   },
   {
    "demanda": "113523/2026",
@@ -3220,7 +3026,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-13T00:00:00.000Z"
   },
   {
    "demanda": "111601/2026",
@@ -3236,7 +3044,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-06T00:00:00.000Z"
   },
   {
    "demanda": "106764/2026",
@@ -3252,7 +3062,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-26T00:00:00.000Z"
   },
   {
    "demanda": "104613/2026",
@@ -3268,7 +3080,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-24T00:00:00.000Z"
   },
   {
    "demanda": "104583/2026",
@@ -3284,7 +3098,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-24T00:00:00.000Z"
   },
   {
    "demanda": "104567/2026",
@@ -3300,7 +3116,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-24T00:00:00.000Z"
   },
   {
    "demanda": "102440/2026",
@@ -3316,7 +3134,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-25T00:00:00.000Z"
   },
   {
    "demanda": "101452/2026",
@@ -3332,7 +3152,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100731/2026",
@@ -3348,7 +3170,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100715/2026",
@@ -3364,7 +3188,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100707/2026",
@@ -3380,7 +3206,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100693/2026",
@@ -3396,7 +3224,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100685/2026",
@@ -3412,7 +3242,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100480/2026",
@@ -3428,7 +3260,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "100464/2026",
@@ -3444,7 +3278,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "99547/2026",
@@ -3460,7 +3296,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-30T00:00:00.000Z"
   },
   {
    "demanda": "99520/2026",
@@ -3476,7 +3314,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "99245/2026",
@@ -3492,7 +3332,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-20T00:00:00.000Z"
   },
   {
    "demanda": "98664/2026",
@@ -3508,7 +3350,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-20T00:00:00.000Z"
   },
   {
    "demanda": "97056/2026",
@@ -3524,7 +3368,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-19T00:00:00.000Z"
   },
   {
    "demanda": "96190/2026",
@@ -3540,7 +3386,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-19T00:00:00.000Z"
   },
   {
    "demanda": "96165/2026",
@@ -3556,7 +3404,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-18T00:00:00.000Z"
   },
   {
    "demanda": "96130/2026",
@@ -3572,7 +3422,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-20T00:00:00.000Z"
   },
   {
    "demanda": "94340/2026",
@@ -3588,7 +3440,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "94200/2026",
@@ -3604,7 +3458,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-20T00:00:00.000Z"
   },
   {
    "demanda": "94170/2026",
@@ -3620,7 +3476,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-17T00:00:00.000Z"
   },
   {
    "demanda": "93352/2026",
@@ -3636,7 +3494,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-17T00:00:00.000Z"
   },
   {
    "demanda": "92160/2026",
@@ -3652,7 +3512,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-16T00:00:00.000Z"
   },
   {
    "demanda": "91635/2026",
@@ -3668,7 +3530,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-16T00:00:00.000Z"
   },
   {
    "demanda": "91317/2026",
@@ -3684,7 +3548,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-27T00:00:00.000Z"
   },
   {
    "demanda": "89827/2026",
@@ -3700,7 +3566,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-13T00:00:00.000Z"
   },
   {
    "demanda": "87964/2026",
@@ -3716,7 +3584,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-12T00:00:00.000Z"
   },
   {
    "demanda": "87883/2026",
@@ -3732,7 +3602,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-12T00:00:00.000Z"
   },
   {
    "demanda": "87824/2026",
@@ -3748,7 +3620,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "87794/2026",
@@ -3764,7 +3638,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-12T00:00:00.000Z"
   },
   {
    "demanda": "87247/2026",
@@ -3780,7 +3656,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "82970/2026",
@@ -3796,7 +3674,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-12T00:00:00.000Z"
   },
   {
    "demanda": "82873/2026",
@@ -3812,7 +3692,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "81834/2026",
@@ -3828,7 +3710,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "81826/2026",
@@ -3844,7 +3728,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "80013/2026",
@@ -3860,7 +3746,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-12T00:00:00.000Z"
   },
   {
    "demanda": "79368/2026",
@@ -3876,7 +3764,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-06T00:00:00.000Z"
   },
   {
    "demanda": "78663/2026",
@@ -3892,7 +3782,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "78426/2026",
@@ -3908,7 +3800,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "76407/2026",
@@ -3924,7 +3818,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "75125/2026",
@@ -3940,7 +3836,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-04T00:00:00.000Z"
   },
   {
    "demanda": "73955/2026",
@@ -3956,7 +3854,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-03T00:00:00.000Z"
   },
   {
    "demanda": "73866/2026",
@@ -3972,7 +3872,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "73432/2026",
@@ -3988,7 +3890,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-26T00:00:00.000Z"
   },
   {
    "demanda": "73238/2026",
@@ -4004,7 +3908,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-09T00:00:00.000Z"
   },
   {
    "demanda": "72827/2026",
@@ -4020,7 +3926,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-09T00:00:00.000Z"
   },
   {
    "demanda": "70905/2026",
@@ -4036,7 +3944,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-03T00:00:00.000Z"
   },
   {
    "demanda": "69753/2026",
@@ -4052,7 +3962,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "67998/2026",
@@ -4068,7 +3980,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-26T00:00:00.000Z"
   },
   {
    "demanda": "67971/2026",
@@ -4084,7 +3998,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-26T00:00:00.000Z"
   },
   {
    "demanda": "67343/2026",
@@ -4100,7 +4016,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-26T00:00:00.000Z"
   },
   {
    "demanda": "67289/2026",
@@ -4116,7 +4034,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-26T00:00:00.000Z"
   },
   {
    "demanda": "66681/2026",
@@ -4132,7 +4052,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "66380/2026",
@@ -4148,7 +4070,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-07-06T00:00:00.000Z"
   },
   {
    "demanda": "64549/2026",
@@ -4164,7 +4088,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-25T00:00:00.000Z"
   },
   {
    "demanda": "64514/2026",
@@ -4180,695 +4106,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "39889/2026",
-   "tipo": "Compra",
-   "finalidade": "Necessário para a correção de pequenas falhas\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-02-04T18:25:00.000Z",
-   "encam": "2026-02-25T19:00:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "39439/2026",
-   "tipo": "Compra",
-   "finalidade": "Necessário para higienização dos equipamentos que ficaram imersos na resina UV e armazenamento de itens consumíveis\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-02-04T16:33:00.000Z",
-   "encam": "2026-02-12T13:52:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "38505/2026",
-   "tipo": "AdesãoRP",
-   "finalidade": "Aquisição de gêneros alimentícios, através de RP EP/USP, compra web n° 7731/2026",
-   "requisitante": "Angela Mitie",
-   "cadastro": "2026-02-04T11:58:00.000Z",
-   "encam": "2026-02-04T16:59:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "37851/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Peça de reposição para substituição no purificador de água FR600 - Patrimônio nº 044.008622",
-   "requisitante": "Cristina Maura",
-   "cadastro": "2026-02-03T18:59:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "30652/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação de Serviço de Manutenção, Operação e Controle (PMOC) dos equipamentos de ar condicionado do IGc/USP",
-   "requisitante": "Jose Eduardo",
-   "cadastro": "2026-01-29T16:09:00.000Z",
-   "encam": "2026-06-12T19:02:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "30644/2026",
-   "tipo": "Compra",
-   "finalidade": "Assessoria Técnica para a Fiscalização de Obras da SEF - USP",
-   "requisitante": "Jose Eduardo",
-   "cadastro": "2026-01-29T16:08:00.000Z",
-   "encam": "2026-03-17T16:45:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "28585/2026",
-   "tipo": "Compra",
-   "finalidade": "Necessário para efetuar a troca do filme FEP da impressora 3D que danificará conforme o tempo e número de impressões.\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galan",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-28T17:46:00.000Z",
-   "encam": "2026-02-26T12:40:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "27660/2026",
-   "tipo": "Compra",
-   "finalidade": "bbbbb",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-28T13:25:00.000Z",
-   "encam": "2026-01-29T16:53:00.000Z",
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "27490/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Taxa de Anotação de Responsabilidade Técnica - CRQ IV",
-   "requisitante": "Giselle Magdaleno",
-   "cadastro": "2026-01-28T12:47:00.000Z",
-   "encam": "2026-03-17T12:32:00.000Z",
-   "situacao": "Concluída",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "27406/2026",
-   "tipo": "Compra",
-   "finalidade": "Item de LCD se faz necessário para o funcionamento da impressora 3D.\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-28T12:33:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "25667/2026",
-   "tipo": "Compra",
-   "finalidade": "Para uso na Comissão de Pesquisa, CCInt, CCEx e Eventos",
-   "requisitante": "Hellen Cristina",
-   "cadastro": "2026-01-27T14:35:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "25586/2026",
-   "tipo": "Compra",
-   "finalidade": "Utilização em provas e concursos.",
-   "requisitante": "Nanci Iurico",
-   "cadastro": "2026-01-27T14:16:00.000Z",
-   "encam": "2026-01-28T14:00:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "25152/2026",
-   "tipo": "Compra",
-   "finalidade": "kkkkkkk",
-   "requisitante": "Cristina Maura",
-   "cadastro": "2026-01-27T13:06:00.000Z",
-   "encam": null,
-   "situacao": "Cancelada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "20770/2026",
-   "tipo": "Compra",
-   "finalidade": "Atendimento das demandas de serviços de Correios da Unidade.",
-   "requisitante": "Iolanda Hiybali",
-   "cadastro": "2026-01-23T12:55:00.000Z",
-   "encam": "2026-01-30T13:14:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "20541/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de filtro de proteção individual para o Laboratório de Oficina de Réplicas do IGc/USP-DFD 175/25.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-23T11:55:00.000Z",
-   "encam": "2026-02-12T18:39:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "19535/2026",
-   "tipo": "Compra",
-   "finalidade": "Manutenção corretiva com troca de peças em equipamento espectrômetro de massa modelo DELTA V IRMS marca THERMOFISHER, patrimõnio 044.013462, utilizado para análises de isótopos estáveis em matrizes de sedimento e minerais carbonaticas.",
-   "requisitante": "Henrique Martins",
-   "cadastro": "2026-01-22T17:07:00.000Z",
-   "encam": "2026-02-25T13:37:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "19446/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de sistema de armazenamento e arquivamento deslizante para o acondicionamento dos fósseis do Laboratório de Paleontologia Sistemática do IGc/USP - ( Prof. Juliana - 044-057)",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-22T16:38:00.000Z",
-   "encam": "2026-07-13T19:34:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "Brenno",
-   "desde": "2026-07-31T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "18920/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação de serviço automotivo especializado em manutenção corretiva para o Micro - ônibus VW -\nInduscar Foz VWOD 2008, placa: DJP 7656 patrin. 044.008396.",
-   "requisitante": "Ubiratan Cordeiro",
-   "cadastro": "2026-01-22T13:29:00.000Z",
-   "encam": "2026-04-02T12:32:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "18504/2026",
-   "tipo": "Compra",
-   "finalidade": "Contratação de serviço automotivo especializado em manutenção mecânica corretiva para o ônibus Mercedez Bens Induscar GI R 400, ano 2003, Placa: CMW 5657 patrim. 044.005148",
-   "requisitante": "Ubiratan Cordeiro",
-   "cadastro": "2026-01-22T11:59:00.000Z",
-   "encam": "2026-04-02T12:33:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "18440/2026",
-   "tipo": "Compra",
-   "finalidade": "Uso no Desfibrilador Externo Automático da marca TOTH LIFECARE, modelo EASYSHOCK, instalado neste Instituto.",
-   "requisitante": "Iolanda Hiybali",
-   "cadastro": "2026-01-22T11:45:00.000Z",
-   "encam": "2026-02-11T12:48:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "16811/2026",
-   "tipo": "Compra",
-   "finalidade": "Canaletas e conectores para expansão e manutenção da infraestrutura de rede, permitindo a instalação segura, organizada e padronizada de cabos de dados, voz e energia em reformas, reconfigurações de ambientes ou substituição de componentes danificados.",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-01-21T12:26:00.000Z",
-   "encam": "2026-07-17T21:40:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-17T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "15505/2026",
-   "tipo": "Compra",
-   "finalidade": "Serviço de manutenção corretiva no espectrômetro de massa modelo DELTA V IRMS marca THERMOFISHER, Esse equipamento é utilizado para análises de isótopos estáveis em matrizes de sedimento e minerais carbonáticas.",
-   "requisitante": "Henrique Martins",
-   "cadastro": "2026-01-20T14:47:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "12182/2026",
-   "tipo": "Compra",
-   "finalidade": "teste",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-16T17:17:00.000Z",
-   "encam": null,
-   "situacao": "Cancelada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "10120/2026",
-   "tipo": "Adiantamento",
-   "finalidade": "Aquisição de Serviço mecânico de montagem e desmontagem do sistema de freio do veículo Fiat Toro, Placa: FWB 0H47, pratrin, 200.022.174 do I.G.c. para análise perícial.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-15T11:46:00.000Z",
-   "encam": "2026-01-15T12:09:00.000Z",
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "9963/2026",
-   "tipo": "Compra",
-   "finalidade": "Suportes para mobilidade de televisores para uso nas atividades cotidianas acadêmicas e administrativas do Instituto",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-01-14T19:51:00.000Z",
-   "encam": "2026-07-17T21:40:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-17T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "9165/2026",
-   "tipo": "Compra",
-   "finalidade": "Publicação de artigos em língua inglesa na Revista Geologia USP. Série Científica, do IGc-USP",
-   "requisitante": "Daniel Machado",
-   "cadastro": "2026-01-14T14:19:00.000Z",
-   "encam": "2026-01-15T10:47:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "9009/2026",
-   "tipo": "Compra",
-   "finalidade": "Necessário para higienização do local e dos equipamentos expostos a resina UV\nGrupo 044-057 Projeto especiais - Técnicas Assistidas - Prof. Douglas Galante.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-14T13:25:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8991/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de lâmpadas, soquetes, para repor as que estão danificas na parte interna do Instituto de Geociências.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-14T13:22:00.000Z",
-   "encam": "2026-07-08T17:12:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8851/2026",
-   "tipo": "Compra",
-   "finalidade": "Patch cords para conectar equipamentos de rede que exigem maior alcance como câmeras de segurança e pontos de acesso Wi-Fi",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-01-14T12:21:00.000Z",
-   "encam": "2026-07-17T21:39:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-17T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8614/2026",
-   "tipo": "Compra",
-   "finalidade": "Lavagem de veículos diversos, utilizados em atividades de aula de campo com docentes e alunos do Instituto de Geociências.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-14T09:24:00.000Z",
-   "encam": "2026-05-08T12:09:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8479/2026",
-   "tipo": "Compra",
-   "finalidade": "Recuperação dos livros tombos da Coleção Científica do Laboratório de Paleontologia Sistemática IGc/USP. ( Profa. Juliana - 044-057) - Projeto Especiais - Edital Preservação de Acervos de Paleontologia. Professora Juliana de Moraes Leme Basso.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-13T18:50:00.000Z",
-   "encam": "2026-02-09T16:46:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8320/2026",
-   "tipo": "Compra",
-   "finalidade": "Patch cords para conectar equipamentos de rede (como computadores, servidores e switches) aos pontos de rede do Instituto de Geociências da USP, garantindo conectividade estável e compatível com os padrões atuais de transmissão de dados.",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-01-13T17:43:00.000Z",
-   "encam": "2026-07-17T21:38:00.000Z",
-   "situacao": "Em análise",
-   "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-17T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8274/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de bobina plástico de PVC, plástico encolhível para a embalagem das réplicas de fósseis  do Laboratório de Oficina de Réplicas do IGc/USP.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-13T17:22:00.000Z",
-   "encam": "2026-02-13T12:03:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8231/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de bobina plástico de PVC, plástico encolhível para a embalagem das réplicas de fósseis  do Laboratório de Oficina de Réplicas do IGc/USP-DFD 47/2024",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-13T17:14:00.000Z",
-   "encam": null,
-   "situacao": "Cancelada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "8169/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de materiais diversos lixas, corante em pó e líquido, verniz, massa corrida para o Laboratório de Oficina de Réplicas do IGc/USP-DFD 47/2024",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-13T16:22:00.000Z",
-   "encam": "2026-01-21T18:22:00.000Z",
-   "situacao": "Em elaboração",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "7510/2026",
-   "tipo": "Compra",
-   "finalidade": "Serviço de manutenção preventiva do elevador do Instituto de Geociências, visando garantir o pleno funcionamento, segurança e conformidade com as normas técnicas vigentes.\nInclui inspeções, lubrificação, ajustes e testes periódicos dos sistemas Zenit.",
-   "requisitante": "Antonio Soares",
-   "cadastro": "2026-01-13T12:15:00.000Z",
-   "encam": "2026-01-30T20:08:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "7413/2026",
-   "tipo": "Compra",
-   "finalidade": "Para a confecção e modelagem de replicas de fósseis. DFD 158/25.",
-   "requisitante": "Ivone Cardoso",
-   "cadastro": "2026-01-13T11:49:00.000Z",
-   "encam": "2026-07-06T11:38:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "7367/2026",
-   "tipo": "Compra",
-   "finalidade": "Aquisição de uniformes para uso dos funcionários da equipe de Serviços Gerais do IGc: GENIVALDO DORIA PALMEIRA - Matrícula nº 2804730, JOÃO FERNANDO FERRAZ DE OLIVEIRA - Matrícula nº 7338375 e MANOEL CÍCERO PEREIRA DA SILVA - Matrícula nº 7338552.",
-   "requisitante": "Cristina Maura",
-   "cadastro": "2026-01-13T11:34:00.000Z",
-   "encam": "2026-03-04T17:21:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "6344/2026",
-   "tipo": "Compra",
-   "finalidade": "Uniformes para funcionários da manutenção",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-12T14:18:00.000Z",
-   "encam": "2026-03-03T17:54:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "6298/2026",
-   "tipo": "Compra",
-   "finalidade": "Conserto do portão automático da garagem do setor de transporte para uso de docentes e funcionários do Isntituto de Geociênias.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-12T13:59:00.000Z",
-   "encam": "2026-02-10T16:37:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "5747/2026",
-   "tipo": "Compra",
-   "finalidade": "Uniforme para uso dos funcionários: Carlos Alexandre de Camargo Dias, Clodoaldo Machado Alcantara, Francisco das Chagas Guedes Oliveira, Marcelo Ferreira dos Santos, Marivaldo Silva dos Santos e Nelson Gomes Xavier da seção de manutenção.",
-   "requisitante": "Leonardo Pudelko",
-   "cadastro": "2026-01-12T10:24:00.000Z",
-   "encam": "2026-03-03T17:54:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "5674/2026",
-   "tipo": "Compra",
-   "finalidade": "Manutenção preventiva de condicionadores de ar em salas com servidores e equipamentos de rede do IGc-USP, para garantir controle térmico, evitar falhas e prolongar a vida útil dos aparelhos.",
-   "requisitante": "Erickson Zanon",
-   "cadastro": "2026-01-09T20:12:00.000Z",
-   "encam": "2026-01-21T18:54:00.000Z",
-   "situacao": "Para compras",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
-  },
-  {
-   "demanda": "3477/2026",
-   "tipo": "Compra",
-   "finalidade": "Materiais de Escritório, utilizado por funcionários, alunos e professores do Instituto. Aquisição necessária para reposição do estoque do Almoxarifado. DFD 29/2025.",
-   "requisitante": "Rita de",
-   "cadastro": "2026-01-08T18:10:00.000Z",
-   "encam": "2026-06-10T16:47:00.000Z",
-   "situacao": "Analisada",
-   "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
-   "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-25T00:00:00.000Z"
   },
   {
    "demanda": "2918/2026",
@@ -4884,7 +4124,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-19T00:00:00.000Z"
   },
   {
    "demanda": "2268/2026",
@@ -4900,7 +4142,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-20T00:00:00.000Z"
   },
   {
    "demanda": "1571/2026",
@@ -4916,7 +4160,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-16T00:00:00.000Z"
   },
   {
    "demanda": "1040/2026",
@@ -4932,7 +4178,1377 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-09T00:00:00.000Z"
+  },
+  {
+   "demanda": "64492/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Aquisição de chá a granel, utilizado na Biblioteca do Instituto.",
+   "requisitante": "Angela Mitie",
+   "cadastro": "2026-02-25T12:16:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-25T00:00:00.000Z"
+  },
+  {
+   "demanda": "64069/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Compra de Disco de Tacógrafo para o veículo Micro Ônibus, placa DJP 7656, patrim. 8396, utilizado por docentes e alunos em atividades didáticas.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-24T19:29:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-23T00:00:00.000Z"
+  },
+  {
+   "demanda": "63550/2026",
+   "tipo": "Compra",
+   "finalidade": "Reposição de produto utilizado em equipamento/impressora da Seção de Transporte do I.G.c.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-24T17:17:00.000Z",
+   "encam": "2026-02-25T18:34:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-23T00:00:00.000Z"
+  },
+  {
+   "demanda": "63534/2026",
+   "tipo": "Aditamento",
+   "finalidade": "Toner para impressora Laser Jet Pro MFP M428fdw da Seção de Transporte.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-24T17:10:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "63500/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Pagamento do exame toxicológico para o funcionário, Ubiratan cordeiro da Silva Lima, Nº USP 7015851 lotado no Instituto de Geociências/USP na Seção de Transporte.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-24T17:04:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-24T00:00:00.000Z"
+  },
+  {
+   "demanda": "63100/2026",
+   "tipo": "Compra",
+   "finalidade": "Monitoramento eletrônico das dependências do Instituto.",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-02-24T14:14:00.000Z",
+   "encam": "2026-08-04T13:15:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-23T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-10T00:00:00.000Z"
+  },
+  {
+   "demanda": "62791/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Naterial de escritório para repor na Seção.",
+   "requisitante": "Claudia de",
+   "cadastro": "2026-02-24T13:07:00.000Z",
+   "encam": "2026-02-24T13:08:00.000Z",
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "62007/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de fios, Cabos e materiais isolante para manutenção e conservação para melhor atender o Instituto de Geociências.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-23T19:22:00.000Z",
+   "encam": "2026-07-21T11:56:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-27T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-25T00:00:00.000Z"
+  },
+  {
+   "demanda": "61361/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de 10 nobreaks senoidais para fornecimento de energia ininterrupta para a ampliação da capacidade do LIG.",
+   "requisitante": "Antonio Tadashi",
+   "cadastro": "2026-02-23T16:40:00.000Z",
+   "encam": "2026-03-05T17:59:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-02T00:00:00.000Z"
+  },
+  {
+   "demanda": "61310/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de 10 teclados, 10 mouses com fio, 5 dispositivos de armazenamento tipo estado sólido e 5 dispositivos de armazenamento do tipo disco rígido para reposição em casos de falhas não programadas.",
+   "requisitante": "Antonio Tadashi",
+   "cadastro": "2026-02-23T15:56:00.000Z",
+   "encam": null,
+   "situacao": "Cancelada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "58670/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Aferição  e conserto de Tacógrafo para o veículo Micro Ônibus Induscar Foz VWod placa: DJP 7656 patrimônio 044.008396. Utilizados por docentes e alunos em atividades de aula de campo do I.G.c.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-20T12:44:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-20T00:00:00.000Z"
+  },
+  {
+   "demanda": "58433/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de dois quadros brancos de vidro para instalação após a reforma do LIG e compra de 60 cadeiras em substituição das antigas e ampliação da capacidade após a reforma do LIG.\nAquisição com a verba 044406 - Aprimoramento - Graduação",
+   "requisitante": "Antonio Tadashi",
+   "cadastro": "2026-02-20T11:05:00.000Z",
+   "encam": "2026-02-24T18:36:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-24T00:00:00.000Z"
+  },
+  {
+   "demanda": "58115/2026",
+   "tipo": "Compra",
+   "finalidade": "Produtos para diversas reuniões do IGc, eventos, simposios, bancas examinadoras, Diretoria, Vice-Diretoria, CTA, Congregação e reuniões das Comissões Institucionais.",
+   "requisitante": "Denise Cristina",
+   "cadastro": "2026-02-19T18:58:00.000Z",
+   "encam": "2026-03-04T13:34:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-25T00:00:00.000Z"
+  },
+  {
+   "demanda": "57860/2026",
+   "tipo": "Compra",
+   "finalidade": "Melhorar a  distribuição e qualidade sonora nos eventos realizados no IGc",
+   "requisitante": "Paulo Ishiyama",
+   "cadastro": "2026-02-19T17:46:00.000Z",
+   "encam": "2026-03-06T13:08:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "55582/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de telas de projeção e projetores Full HD para uso no LIG e em salas de aula do IGc e no pátio. (Verba 044406 - Aprimoramento do ensino de graduação)",
+   "requisitante": "Antonio Tadashi",
+   "cadastro": "2026-02-13T17:07:00.000Z",
+   "encam": "2026-03-06T13:07:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "55027/2026",
+   "tipo": "Compra",
+   "finalidade": "Edital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante\nServiço de troca de peça LCD para impressora 3D.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-02-13T13:46:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-13T00:00:00.000Z"
+  },
+  {
+   "demanda": "52842/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Taxa de recolhimento da União 'Imetro/Tacógrafo' Veículo Micro Ônibus Induscar Foz VWOD, Placa: DJP 7656, patrim. 044.005148. Utilizados por docentes e alunos em atividades de aula de campo.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-02-12T13:37:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "52532/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de baterias de UPS (NoBreak) para reposição e substituição das baterias antigas nos NoBreaks do LIG",
+   "requisitante": "Antonio Tadashi",
+   "cadastro": "2026-02-12T12:25:00.000Z",
+   "encam": "2026-02-25T13:30:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-24T00:00:00.000Z"
+  },
+  {
+   "demanda": "52508/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Baterias para as telas de projeção a ser utilizadas em diversas salas de aulas do IGc",
+   "requisitante": "Paulo Ishiyama",
+   "cadastro": "2026-02-12T12:23:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "52184/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de aluguel e serviço de montagem de stand (estande) de exposição (6m²) para o 52º Congresso Brasileiro de Geologia em Fortaleza CE.",
+   "requisitante": "Wagner Venancio",
+   "cadastro": "2026-02-11T20:05:00.000Z",
+   "encam": "2026-02-11T21:56:00.000Z",
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "51978/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Para compor o kit Calouros 2026.",
+   "requisitante": "Bianca Watermann",
+   "cadastro": "2026-02-11T19:07:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "51170/2026",
+   "tipo": "Compra",
+   "finalidade": "O lubrificante aérosol é utilizado por funcionários, alunos e professores, na lubrificação adequada de máquinas, ferramentas e equipamentos utilizados nas atividades diárias. Aquisição necessária para reposição do estoque do Almoxarifado. DFD n° 94/2025.",
+   "requisitante": "Rita de",
+   "cadastro": "2026-02-11T14:26:00.000Z",
+   "encam": "2026-02-12T12:30:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "50858/2026",
+   "tipo": "Compra",
+   "finalidade": "Item necessário para produção de impressões 3D\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-02-11T13:14:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "49221/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de aparelho interfone funcionamento na  portaria para segurança do prédio, tem por objetivo o vigilante ver quem está chamando do outro lado do portão já que o aparelho vai ficar no portão carga e descarga.",
+   "requisitante": "Antonio Soares",
+   "cadastro": "2026-02-10T17:50:00.000Z",
+   "encam": "2026-07-23T14:03:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-13T00:00:00.000Z"
+  },
+  {
+   "demanda": "49167/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de serviço de Desinsetização específica para escorpiões e Desratização para os prédios do Instituto de Geociências",
+   "requisitante": "Cristina Maura",
+   "cadastro": "2026-02-10T17:45:00.000Z",
+   "encam": "2026-06-25T14:31:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-04-06T00:00:00.000Z"
+  },
+  {
+   "demanda": "48012/2026",
+   "tipo": "Compra",
+   "finalidade": "Melhorar captação de áudio em palestras e eventos no Instituto.",
+   "requisitante": "Paulo Ishiyama",
+   "cadastro": "2026-02-10T13:31:00.000Z",
+   "encam": "2026-03-06T13:08:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-19T00:00:00.000Z"
+  },
+  {
+   "demanda": "43738/2026",
+   "tipo": "Compra",
+   "finalidade": "Suporte a equipamentos micro-LIBS do Laboratório de Geobiologia Analítica.",
+   "requisitante": "Douglas Galante",
+   "cadastro": "2026-02-06T17:10:00.000Z",
+   "encam": "2026-02-11T12:37:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-11T00:00:00.000Z"
+  },
+  {
+   "demanda": "43150/2026",
+   "tipo": "Compra",
+   "finalidade": "Uso como equipamento de pesquisa no Laboratório de Geobiologia Analítica.",
+   "requisitante": "Douglas Galante",
+   "cadastro": "2026-02-06T13:33:00.000Z",
+   "encam": "2026-05-21T18:37:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-06T00:00:00.000Z"
+  },
+  {
+   "demanda": "41980/2026",
+   "tipo": "Compra",
+   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
+   "requisitante": "Leonardo José",
+   "cadastro": "2026-02-05T18:26:00.000Z",
+   "encam": "2026-03-17T17:37:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-17T00:00:00.000Z"
+  },
+  {
+   "demanda": "41891/2026",
+   "tipo": "Compra",
+   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
+   "requisitante": "Leonardo José",
+   "cadastro": "2026-02-05T18:04:00.000Z",
+   "encam": "2026-07-06T11:38:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-05T00:00:00.000Z"
+  },
+  {
+   "demanda": "41808/2026",
+   "tipo": "Compra",
+   "finalidade": "Modernizar o Laboratório de Recursos Didáticos e contribuir na produção de Recursos Didáticos de fino acabamento e qualidade técnico-pedagógica.",
+   "requisitante": "Leonardo José",
+   "cadastro": "2026-02-05T17:43:00.000Z",
+   "encam": "2026-03-18T13:34:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-05T00:00:00.000Z"
+  },
+  {
+   "demanda": "40852/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação voltada à execução de serviços de manutenção de elevada complexidade e especificidade técnica para o equipamento de Microssonda Eletrônica.",
+   "requisitante": "Roger Wallace",
+   "cadastro": "2026-02-05T13:23:00.000Z",
+   "encam": "2026-04-01T19:11:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "40046/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de sistema de armazenamento e arquivamento deslizante para o acondicionamento dos fósseis do Laboratório de Paleontologia Sistemática do IGc\nRecurso Professora Juliana de Moraes Leme Basso - Grupo 044-206 - Infraestrutura de Pesquisa e Biotério.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-02-04T19:02:00.000Z",
+   "encam": "2026-07-13T19:34:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "Brenno",
+   "desde": "2026-07-31T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "39889/2026",
+   "tipo": "Compra",
+   "finalidade": "Necessário para a correção de pequenas falhas\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-02-04T18:25:00.000Z",
+   "encam": "2026-02-25T19:00:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-04T00:00:00.000Z"
+  },
+  {
+   "demanda": "39439/2026",
+   "tipo": "Compra",
+   "finalidade": "Necessário para higienização dos equipamentos que ficaram imersos na resina UV e armazenamento de itens consumíveis\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-02-04T16:33:00.000Z",
+   "encam": "2026-02-12T13:52:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-04T00:00:00.000Z"
+  },
+  {
+   "demanda": "38505/2026",
+   "tipo": "AdesãoRP",
+   "finalidade": "Aquisição de gêneros alimentícios, através de RP EP/USP, compra web n° 7731/2026",
+   "requisitante": "Angela Mitie",
+   "cadastro": "2026-02-04T11:58:00.000Z",
+   "encam": "2026-02-04T16:59:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "37851/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Peça de reposição para substituição no purificador de água FR600 - Patrimônio nº 044.008622",
+   "requisitante": "Cristina Maura",
+   "cadastro": "2026-02-03T18:59:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-06T00:00:00.000Z"
+  },
+  {
+   "demanda": "30652/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de Serviço de Manutenção, Operação e Controle (PMOC) dos equipamentos de ar condicionado do IGc/USP",
+   "requisitante": "Jose Eduardo",
+   "cadastro": "2026-01-29T16:09:00.000Z",
+   "encam": "2026-06-12T19:02:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "30644/2026",
+   "tipo": "Compra",
+   "finalidade": "Assessoria Técnica para a Fiscalização de Obras da SEF - USP",
+   "requisitante": "Jose Eduardo",
+   "cadastro": "2026-01-29T16:08:00.000Z",
+   "encam": "2026-03-17T16:45:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-03-06T00:00:00.000Z"
+  },
+  {
+   "demanda": "28585/2026",
+   "tipo": "Compra",
+   "finalidade": "Necessário para efetuar a troca do filme FEP da impressora 3D que danificará conforme o tempo e número de impressões.\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galan",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-28T17:46:00.000Z",
+   "encam": "2026-02-26T12:40:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-04T00:00:00.000Z"
+  },
+  {
+   "demanda": "27660/2026",
+   "tipo": "Compra",
+   "finalidade": "bbbbb",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-28T13:25:00.000Z",
+   "encam": "2026-01-29T16:53:00.000Z",
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "27490/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Taxa de Anotação de Responsabilidade Técnica - CRQ IV",
+   "requisitante": "Giselle Magdaleno",
+   "cadastro": "2026-01-28T12:47:00.000Z",
+   "encam": "2026-03-17T12:32:00.000Z",
+   "situacao": "Concluída",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-28T00:00:00.000Z"
+  },
+  {
+   "demanda": "27406/2026",
+   "tipo": "Compra",
+   "finalidade": "Item de LCD se faz necessário para o funcionamento da impressora 3D.\nEdital PRPI - EDITAL DE APOIO À PESQUISA EM TECNOLOGIA ASSISTIDA\nProjeto especial – Grupo 044-057 – Professor Douglas Galante",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-28T12:33:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-28T00:00:00.000Z"
+  },
+  {
+   "demanda": "25667/2026",
+   "tipo": "Compra",
+   "finalidade": "Para uso na Comissão de Pesquisa, CCInt, CCEx e Eventos",
+   "requisitante": "Hellen Cristina",
+   "cadastro": "2026-01-27T14:35:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "25586/2026",
+   "tipo": "Compra",
+   "finalidade": "Utilização em provas e concursos.",
+   "requisitante": "Nanci Iurico",
+   "cadastro": "2026-01-27T14:16:00.000Z",
+   "encam": "2026-01-28T14:00:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "25152/2026",
+   "tipo": "Compra",
+   "finalidade": "kkkkkkk",
+   "requisitante": "Cristina Maura",
+   "cadastro": "2026-01-27T13:06:00.000Z",
+   "encam": null,
+   "situacao": "Cancelada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "20770/2026",
+   "tipo": "Compra",
+   "finalidade": "Atendimento das demandas de serviços de Correios da Unidade.",
+   "requisitante": "Iolanda Hiybali",
+   "cadastro": "2026-01-23T12:55:00.000Z",
+   "encam": "2026-01-30T13:14:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "20541/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de filtro de proteção individual para o Laboratório de Oficina de Réplicas do IGc/USP-DFD 175/25.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-23T11:55:00.000Z",
+   "encam": "2026-02-12T18:39:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-23T00:00:00.000Z"
+  },
+  {
+   "demanda": "19535/2026",
+   "tipo": "Compra",
+   "finalidade": "Manutenção corretiva com troca de peças em equipamento espectrômetro de massa modelo DELTA V IRMS marca THERMOFISHER, patrimõnio 044.013462, utilizado para análises de isótopos estáveis em matrizes de sedimento e minerais carbonaticas.",
+   "requisitante": "Henrique Martins",
+   "cadastro": "2026-01-22T17:07:00.000Z",
+   "encam": "2026-02-25T13:37:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-23T00:00:00.000Z"
+  },
+  {
+   "demanda": "19446/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de sistema de armazenamento e arquivamento deslizante para o acondicionamento dos fósseis do Laboratório de Paleontologia Sistemática do IGc/USP - ( Prof. Juliana - 044-057)",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-22T16:38:00.000Z",
+   "encam": "2026-07-13T19:34:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "Brenno",
+   "desde": "2026-07-31T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-29T00:00:00.000Z"
+  },
+  {
+   "demanda": "18920/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de serviço automotivo especializado em manutenção corretiva para o Micro - ônibus VW -\nInduscar Foz VWOD 2008, placa: DJP 7656 patrin. 044.008396.",
+   "requisitante": "Ubiratan Cordeiro",
+   "cadastro": "2026-01-22T13:29:00.000Z",
+   "encam": "2026-04-02T12:32:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-22T00:00:00.000Z"
+  },
+  {
+   "demanda": "18504/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de serviço automotivo especializado em manutenção mecânica corretiva para o ônibus Mercedez Bens Induscar GI R 400, ano 2003, Placa: CMW 5657 patrim. 044.005148",
+   "requisitante": "Ubiratan Cordeiro",
+   "cadastro": "2026-01-22T11:59:00.000Z",
+   "encam": "2026-04-02T12:33:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-22T00:00:00.000Z"
+  },
+  {
+   "demanda": "18440/2026",
+   "tipo": "Compra",
+   "finalidade": "Uso no Desfibrilador Externo Automático da marca TOTH LIFECARE, modelo EASYSHOCK, instalado neste Instituto.",
+   "requisitante": "Iolanda Hiybali",
+   "cadastro": "2026-01-22T11:45:00.000Z",
+   "encam": "2026-02-11T12:48:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-18T00:00:00.000Z"
+  },
+  {
+   "demanda": "16811/2026",
+   "tipo": "Compra",
+   "finalidade": "Canaletas e conectores para expansão e manutenção da infraestrutura de rede, permitindo a instalação segura, organizada e padronizada de cabos de dados, voz e energia em reformas, reconfigurações de ambientes ou substituição de componentes danificados.",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-01-21T12:26:00.000Z",
+   "encam": "2026-07-17T21:40:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-17T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "15505/2026",
+   "tipo": "Compra",
+   "finalidade": "Serviço de manutenção corretiva no espectrômetro de massa modelo DELTA V IRMS marca THERMOFISHER, Esse equipamento é utilizado para análises de isótopos estáveis em matrizes de sedimento e minerais carbonáticas.",
+   "requisitante": "Henrique Martins",
+   "cadastro": "2026-01-20T14:47:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": null
+  },
+  {
+   "demanda": "12182/2026",
+   "tipo": "Compra",
+   "finalidade": "teste",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-16T17:17:00.000Z",
+   "encam": null,
+   "situacao": "Cancelada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "10120/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Aquisição de Serviço mecânico de montagem e desmontagem do sistema de freio do veículo Fiat Toro, Placa: FWB 0H47, pratrin, 200.022.174 do I.G.c. para análise perícial.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-15T11:46:00.000Z",
+   "encam": "2026-01-15T12:09:00.000Z",
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "9963/2026",
+   "tipo": "Compra",
+   "finalidade": "Suportes para mobilidade de televisores para uso nas atividades cotidianas acadêmicas e administrativas do Instituto",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-01-14T19:51:00.000Z",
+   "encam": "2026-07-17T21:40:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-17T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-21T00:00:00.000Z"
+  },
+  {
+   "demanda": "9165/2026",
+   "tipo": "Compra",
+   "finalidade": "Publicação de artigos em língua inglesa na Revista Geologia USP. Série Científica, do IGc-USP",
+   "requisitante": "Daniel Machado",
+   "cadastro": "2026-01-14T14:19:00.000Z",
+   "encam": "2026-01-15T10:47:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-15T00:00:00.000Z"
+  },
+  {
+   "demanda": "9009/2026",
+   "tipo": "Compra",
+   "finalidade": "Necessário para higienização do local e dos equipamentos expostos a resina UV\nGrupo 044-057 Projeto especiais - Técnicas Assistidas - Prof. Douglas Galante.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-14T13:25:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-04T00:00:00.000Z"
+  },
+  {
+   "demanda": "8991/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de lâmpadas, soquetes, para repor as que estão danificas na parte interna do Instituto de Geociências.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-14T13:22:00.000Z",
+   "encam": "2026-07-08T17:12:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-14T00:00:00.000Z"
+  },
+  {
+   "demanda": "8851/2026",
+   "tipo": "Compra",
+   "finalidade": "Patch cords para conectar equipamentos de rede que exigem maior alcance como câmeras de segurança e pontos de acesso Wi-Fi",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-01-14T12:21:00.000Z",
+   "encam": "2026-07-17T21:39:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-17T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "8614/2026",
+   "tipo": "Compra",
+   "finalidade": "Lavagem de veículos diversos, utilizados em atividades de aula de campo com docentes e alunos do Instituto de Geociências.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-14T09:24:00.000Z",
+   "encam": "2026-05-08T12:09:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "8479/2026",
+   "tipo": "Compra",
+   "finalidade": "Recuperação dos livros tombos da Coleção Científica do Laboratório de Paleontologia Sistemática IGc/USP. ( Profa. Juliana - 044-057) - Projeto Especiais - Edital Preservação de Acervos de Paleontologia. Professora Juliana de Moraes Leme Basso.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-13T18:50:00.000Z",
+   "encam": "2026-02-09T16:46:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-30T00:00:00.000Z"
+  },
+  {
+   "demanda": "8320/2026",
+   "tipo": "Compra",
+   "finalidade": "Patch cords para conectar equipamentos de rede (como computadores, servidores e switches) aos pontos de rede do Instituto de Geociências da USP, garantindo conectividade estável e compatível com os padrões atuais de transmissão de dados.",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-01-13T17:43:00.000Z",
+   "encam": "2026-07-17T21:38:00.000Z",
+   "situacao": "Em análise",
+   "prioridade": "normal",
+   "responsavel": "Thiago",
+   "desde": "2026-07-17T03:00:00.000Z",
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "8274/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de bobina plástico de PVC, plástico encolhível para a embalagem das réplicas de fósseis  do Laboratório de Oficina de Réplicas do IGc/USP.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-13T17:22:00.000Z",
+   "encam": "2026-02-13T12:03:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-13T00:00:00.000Z"
+  },
+  {
+   "demanda": "8231/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de bobina plástico de PVC, plástico encolhível para a embalagem das réplicas de fósseis  do Laboratório de Oficina de Réplicas do IGc/USP-DFD 47/2024",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-13T17:14:00.000Z",
+   "encam": null,
+   "situacao": "Cancelada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "8169/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de materiais diversos lixas, corante em pó e líquido, verniz, massa corrida para o Laboratório de Oficina de Réplicas do IGc/USP-DFD 47/2024",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-13T16:22:00.000Z",
+   "encam": "2026-01-21T18:22:00.000Z",
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "7510/2026",
+   "tipo": "Compra",
+   "finalidade": "Serviço de manutenção preventiva do elevador do Instituto de Geociências, visando garantir o pleno funcionamento, segurança e conformidade com as normas técnicas vigentes.\nInclui inspeções, lubrificação, ajustes e testes periódicos dos sistemas Zenit.",
+   "requisitante": "Antonio Soares",
+   "cadastro": "2026-01-13T12:15:00.000Z",
+   "encam": "2026-01-30T20:08:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-13T00:00:00.000Z"
+  },
+  {
+   "demanda": "7413/2026",
+   "tipo": "Compra",
+   "finalidade": "Para a confecção e modelagem de replicas de fósseis. DFD 158/25.",
+   "requisitante": "Ivone Cardoso",
+   "cadastro": "2026-01-13T11:49:00.000Z",
+   "encam": "2026-07-06T11:38:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-27T00:00:00.000Z"
+  },
+  {
+   "demanda": "7367/2026",
+   "tipo": "Compra",
+   "finalidade": "Aquisição de uniformes para uso dos funcionários da equipe de Serviços Gerais do IGc: GENIVALDO DORIA PALMEIRA - Matrícula nº 2804730, JOÃO FERNANDO FERRAZ DE OLIVEIRA - Matrícula nº 7338375 e MANOEL CÍCERO PEREIRA DA SILVA - Matrícula nº 7338552.",
+   "requisitante": "Cristina Maura",
+   "cadastro": "2026-01-13T11:34:00.000Z",
+   "encam": "2026-03-04T17:21:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-13T00:00:00.000Z"
+  },
+  {
+   "demanda": "6344/2026",
+   "tipo": "Compra",
+   "finalidade": "Uniformes para funcionários da manutenção",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-12T14:18:00.000Z",
+   "encam": "2026-03-03T17:54:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "6298/2026",
+   "tipo": "Compra",
+   "finalidade": "Conserto do portão automático da garagem do setor de transporte para uso de docentes e funcionários do Isntituto de Geociênias.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-12T13:59:00.000Z",
+   "encam": "2026-02-10T16:37:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "5747/2026",
+   "tipo": "Compra",
+   "finalidade": "Uniforme para uso dos funcionários: Carlos Alexandre de Camargo Dias, Clodoaldo Machado Alcantara, Francisco das Chagas Guedes Oliveira, Marcelo Ferreira dos Santos, Marivaldo Silva dos Santos e Nelson Gomes Xavier da seção de manutenção.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-01-12T10:24:00.000Z",
+   "encam": "2026-03-03T17:54:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-12T00:00:00.000Z"
+  },
+  {
+   "demanda": "5674/2026",
+   "tipo": "Compra",
+   "finalidade": "Manutenção preventiva de condicionadores de ar em salas com servidores e equipamentos de rede do IGc-USP, para garantir controle térmico, evitar falhas e prolongar a vida útil dos aparelhos.",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-01-09T20:12:00.000Z",
+   "encam": "2026-01-21T18:54:00.000Z",
+   "situacao": "Para compras",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-01-21T00:00:00.000Z"
+  },
+  {
+   "demanda": "3477/2026",
+   "tipo": "Compra",
+   "finalidade": "Materiais de Escritório, utilizado por funcionários, alunos e professores do Instituto. Aquisição necessária para reposição do estoque do Almoxarifado. DFD 29/2025.",
+   "requisitante": "Rita de",
+   "cadastro": "2026-01-08T18:10:00.000Z",
+   "encam": "2026-06-10T16:47:00.000Z",
+   "situacao": "Analisada",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2026-02-10T00:00:00.000Z"
   },
   {
    "demanda": "265151/2025",
@@ -4948,7 +5564,9 @@
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
-   "statusFinal": ""
+   "statusFinal": "",
+   "naPlanilha": true,
+   "envio1": "2025-08-28T00:00:00.000Z"
   }
  ]
 }
