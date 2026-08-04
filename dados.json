@@ -1,11 +1,27 @@
 {
- "atualizadoEm": "2026-08-03T11:31:23.159Z",
+ "atualizadoEm": "2026-08-04T11:08:09.609Z",
  "compras": {
-  "empenhadas": 41,
-  "valorEfetivado": 765038.38,
-  "emAndamento": 5
+  "empenhadas": 42,
+  "valorEfetivado": 1962038.38,
+  "emAndamento": 7
  },
  "demandas": [
+  {
+   "demanda": "239861/2026",
+   "tipo": "Compra",
+   "finalidade": "Transmitir conteúdo digital sem fio para TVs e datashows.",
+   "requisitante": "Erickson Zanon",
+   "cadastro": "2026-08-03T18:52:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": ""
+  },
   {
    "demanda": "237338/2026",
    "tipo": "Adiantamento",
@@ -876,14 +892,14 @@
    "finalidade": "Aquisição de 1 kit contendo 16 corrediças da porta da cabine do 1° pavimento, 2° pavimento e 3° pavimento e cabina do elevador Zenit n° fabricação EL 1023, para uso dos servidores, docentes, discentes e visitantes.",
    "requisitante": "Antonio Soares",
    "cadastro": "2026-06-29T12:59:00.000Z",
-   "encam": "2026-07-31T13:12:00.000Z",
-   "situacao": "Para compras",
+   "encam": "2026-08-03T16:02:00.000Z",
+   "situacao": "Em análise",
    "prioridade": "normal",
    "responsavel": "Eduardo",
    "desde": "2026-07-30T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "Inexigibilidade",
-   "numeroProcesso": "",
+   "numeroProcesso": "86/2026",
    "statusFinal": ""
   },
   {
@@ -2188,11 +2204,11 @@
    "finalidade": "Monitoramento eletrônico das dependências do Instituto. Ampliação da capacidade de armazenamento e distribuição de câmeras.",
    "requisitante": "Erickson Zanon",
    "cadastro": "2026-02-24T14:14:00.000Z",
-   "encam": "2026-07-23T17:17:00.000Z",
-   "situacao": "Em análise",
+   "encam": null,
+   "situacao": "Em elaboração",
    "prioridade": "normal",
-   "responsavel": "Thiago",
-   "desde": "2026-07-23T03:00:00.000Z",
+   "responsavel": "",
+   "desde": null,
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
