@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-04T16:35:22.952Z",
+ "atualizadoEm": "2026-08-04T18:33:09.317Z",
  "compras": null,
  "demandas": [
   {
@@ -3740,8 +3740,8 @@
    "responsavel": "Joelma",
    "desde": "2026-07-21T03:00:00.000Z",
    "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
+   "modalidade": "Dispensa",
+   "numeroProcesso": "12/2026",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-03-12T00:00:00.000Z"
