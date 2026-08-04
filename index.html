@@ -92,7 +92,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       <div class="panel"><h3>Carga por funcionário (demandas em mãos)</h3><div class="chart-wrap"><canvas id="chCarga"></canvas></div></div>
     </div>
     <div class="grid2">
-      <div class="panel"><h3>Demandas de Compra cadastradas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
+      <div class="panel"><h3>Demandas de Compra encaminhadas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
       <div class="panel"><h3>Gargalos e alertas</h3><ul class="gargalos" id="gargalos"></ul></div>
     </div>
     <div class="panel" style="margin-bottom:16px">
@@ -115,7 +115,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
           <thead><tr>
             <th style="width:90px">Demanda</th><th style="width:82px">Tipo</th><th style="width:104px;display:none" id="thSit">Situação</th><th>Finalidade</th>
             <th style="width:120px">Requisitante</th>
-            <th style="width:86px">Encaminhada</th><th style="width:56px">Dias</th>
+            <th style="width:78px">1º Envio</th><th style="width:78px">Último Envio</th><th style="width:56px">Dias</th>
             <th style="width:96px" id="thPrio">Prioridade</th><th style="width:100px" id="thResp">Responsável</th><th style="width:86px" id="thDesde">Em mãos desde</th><th style="width:104px" id="thMod">Modalidade</th><th style="width:92px" id="thNum">Nº processo</th><th style="width:100px" id="thStat">Status final</th>
           </tr></thead>
           <tbody id="tbody"></tbody>
@@ -153,13 +153,22 @@ function dias(d){ return d ? Math.floor((new Date() - d)/86400000) : null; }
 function norm(s){ return String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase(); }
 
 function rowsVivas(){
+  const hasPlan = DADOS.demandas.some(r => typeof r.naPlanilha !== "undefined");
   return DADOS.demandas.map(r => {
     const enc = r.encam ? new Date(r.encam) : null;
-    return {...r, encamD: enc, cadD: r.cadastro?new Date(r.cadastro):null,
+    const env1 = r.envio1 ? new Date(r.envio1) : null;
+    const ref = enc || env1;
+    return {...r, encamD: enc, envio1D: env1, naPlanilha: !!r.naPlanilha, cadD: r.cadastro?new Date(r.cadastro):null,
             prio: r.prioridade||"normal", resp: r.responsavel||"", fim: r.finalizada||null,
             mod: r.modalidade||"", num: r.numeroProcesso||"", stat: r.statusFinal||"",
-            idade: enc ? dias(enc) : null};
-  }).filter(r => r.situacao !== "Cancelada" && !(r.situacao === "Em elaboração" && !r.encamD));
+            idade: ref ? dias(ref) : null};
+  }).filter(r => {
+    if(r.situacao === "Cancelada") return false;
+    if(!hasPlan) return !(r.situacao === "Em elaboração" && !r.encamD); // sem a Planilha no dados.json, mantém a regra anterior
+    if(!r.envio1D && !r.encamD) return false;          // nem 1º envio, nem último envio
+    if(r.encamD && !r.naPlanilha) return false;        // no sistema, mas ausente da Planilha da Seção
+    return true;
+  });
 }
 function medidas(){
   const rows = rowsVivas();
@@ -233,7 +242,7 @@ function render(){
     options:{maintainAspectRatio:false, scales:{x:{stacked:true},y:{stacked:true,ticks:{precision:0}}}, plugins:{legend:{position:"bottom"}}}});
 
   const porMes = {};
-  m.rows.filter(r=>r.tipo==="Compra").forEach(r=>{ if(r.cadD){ const k = r.cadD.getFullYear()+"-"+String(r.cadD.getMonth()+1).padStart(2,"0"); porMes[k]=(porMes[k]||0)+1; } });
+  m.rows.filter(r=>r.tipo==="Compra").forEach(r=>{ const d=r.envio1D||r.encamD; if(d){ const k = d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0"); porMes[k]=(porMes[k]||0)+1; } });
   const meses = Object.keys(porMes).sort();
   charts.m = new Chart($("chMes"), {type:"bar",
     data:{labels:meses.map(k=>k.slice(5,7)+"/"+k.slice(0,4)), datasets:[{label:"Cadastradas", data:meses.map(k=>porMes[k]), backgroundColor:CORES.navy}]},
@@ -280,7 +289,7 @@ function desenhaTabela(){
   if(resp==="__sem") rows = rows.filter(r=>!r.resp);
   else if(resp==="__maos") rows = rows.filter(r=>r.resp && !r.fim);
   else if(resp) rows = rows.filter(r=>r.resp===resp);
-  rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || ((b.encamD?b.encamD:0) - (a.encamD?a.encamD:0)));
+  rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || (((b.encamD||b.envio1D)||0) - ((a.encamD||a.envio1D)||0)));
   $("fCount").textContent = rows.length + " demanda(s)";
   const mostraSit = (sit==="__todas");
   $("thSit").style.display = mostraSit ? "" : "none";
@@ -314,6 +323,7 @@ function desenhaTabela(){
       sitTd+
       '<td title="'+r.finalidade.replace(/"/g,"&quot;")+'">'+r.finalidade.slice(0,90)+(r.finalidade.length>90?"…":"")+'</td>'+
       '<td>'+(r.requisitante||"—")+'</td>'+
+      '<td>'+fmtD(r.envio1D)+'</td>'+
       '<td>'+fmtD(r.encamD)+'</td>'+
       '<td class="idade-num '+idadeCls+'">'+(r.idade===null?"—":r.idade)+'</td>'+
       gestTds+
