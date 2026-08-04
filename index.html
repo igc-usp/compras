@@ -105,9 +105,9 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
       <div class="filtros">
         <input type="text" id="fBusca" placeholder="Buscar por finalidade, requisitante ou nº da demanda…" style="min-width:230px">
         <select id="fTipo"><option value="Compra">Tipo: Compra</option><option>Adiantamento</option><option>Adesão</option><option>AdesãoRP</option><option>Aditamento</option><option value="__todos">Todos os tipos</option></select>
-        <select id="fSit"><option value="Para compras">Situação: Para compras</option><option value="__todas">Todas as situações</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option><option>Cancelada</option></select>
+        <select id="fSit"><option value="__todas">Todas as situações</option><option value="Para compras">Para compras</option><option>Em elaboração</option><option>Em análise</option><option>Analisada</option><option>Concluída</option><option>Cancelada</option></select>
         <select id="fPrio"><option value="">Prioridade: todas</option><option value="urgente">Urgente</option><option value="prioritario">Prioritário</option><option value="normal">Normal</option></select>
-        <select id="fResp"><option value="">Responsável: todos</option><option value="__sem">— Na fila (sem responsável)</option></select>
+        <select id="fResp"><option value="">Responsável: todos</option><option value="__sem">— Na fila (sem responsável)</option><option value="__maos">Em mãos (todos)</option></select>
         <span id="fCount" style="color:var(--muted);font-size:12px"></span>
       </div>
       <div class="tbl-wrap">
@@ -156,6 +156,7 @@ function medidas(){
   const emMaosArr = rows.filter(r => r.tipo === "Compra" && r.resp && !r.fim && r.situacao !== "Cancelada");
   const filaSemArr = fila.filter(r => !r.resp);
   return {rows, fila, total: rows.length,
+    totalCompra: rows.filter(r=>r.tipo==="Compra").length,
     filaSem: filaSemArr.length, emMaos: emMaosArr.length,
     analisadas: rows.filter(r=>r.situacao==="Analisada").length,
     concluidas: rows.filter(r=>r.situacao==="Concluída").length,
@@ -180,13 +181,12 @@ function render(){
   $("healthChip").innerHTML = '<span class="chip '+cls+'"><span class="dot"></span>Saúde da Seção: '+estado+' — '+Math.round(pctResp*100)+'% da fila com responsável</span>';
 
   $("cards").innerHTML = [
-    ['Na fila (sem responsável)', m.filaSem, m.filaSem>0?'atencao':''],
+    ['Na fila', m.filaSem, m.filaSem>0?'atencao':''],
     ['Em mãos de funcionários', m.emMaos, ''],
     ['Analisadas (compras)', m.analisadas, ''],
     ['Concluídas (adiantamentos)', m.concluidas, ''],
-    ['Urgentes aguardando', m.urgentesSem, m.urgentesSem>0?'alerta':''],
     ['Na fila há mais de 90 dias', m.m90, m.m90>0?'alerta':''],
-    ['Total de demandas na base', m.total, '']
+    ['Total de demandas de compra', m.totalCompra, '']
   ].map(c=>'<div class="card '+c[2]+'"><div class="k">'+c[1]+'</div><div class="l">'+c[0]+'</div></div>').join("");
 
   const faixas = [["0–30",0,30,CORES.blue],["31–60",31,60,CORES.mid],["61–90",61,90,CORES.gold],["91–180",91,180,CORES.red],[">180",181,99999,"#7A2531"]];
@@ -251,20 +251,23 @@ function render(){
   $("gargalos").innerHTML = g.map(x=>'<li class="'+x[0]+'">'+x[1]+'</li>').join("");
 
   const selR = $("fResp");
-  while(selR.options.length>2) selR.remove(2);
+  while(selR.options.length>3) selR.remove(3);
   FUNC.forEach(f=>{ const o=document.createElement("option"); o.textContent=f; selR.appendChild(o); });
 
   desenhaTabela();
 }
 
 function desenhaTabela(){
-  const busca = norm($("fBusca").value), tipo = $("fTipo").value, sit = $("fSit").value, pr = $("fPrio").value, resp = $("fResp").value;
+  const resp = $("fResp").value;
+  if(resp==="__maos" && $("fSit").value!=="__todas") $("fSit").value = "__todas";
+  const busca = norm($("fBusca").value), tipo = $("fTipo").value, sit = $("fSit").value, pr = $("fPrio").value;
   let rows = rowsVivas();
   if(tipo!=="__todos") rows = rows.filter(r=>r.tipo===tipo);
   if(sit!=="__todas") rows = rows.filter(r=>r.situacao===sit);
   if(busca) rows = rows.filter(r=>norm(r.finalidade).includes(busca) || norm(r.requisitante).includes(busca) || norm(r.demanda).includes(busca) || norm(r.num).includes(busca));
   if(pr) rows = rows.filter(r=>r.prio===pr);
   if(resp==="__sem") rows = rows.filter(r=>!r.resp);
+  else if(resp==="__maos") rows = rows.filter(r=>r.resp && !r.fim);
   else if(resp) rows = rows.filter(r=>r.resp===resp);
   rows.sort((a,b)=> (PRIO_ORD[a.prio]-PRIO_ORD[b.prio]) || ((b.encamD?b.encamD:0) - (a.encamD?a.encamD:0)));
   $("fCount").textContent = rows.length + " demanda(s)";
