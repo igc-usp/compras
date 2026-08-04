@@ -1,10 +1,6 @@
 {
- "atualizadoEm": "2026-08-04T15:48:44.565Z",
- "compras": {
-  "empenhadas": 43,
-  "valorEfetivado": 1964438.38,
-  "emAndamento": 7
- },
+ "atualizadoEm": "2026-08-04T16:35:22.952Z",
+ "compras": null,
  "demandas": [
   {
    "demanda": "240185/2026",
@@ -3941,8 +3937,8 @@
    "prioridade": "normal",
    "responsavel": "Joelma",
    "desde": "2026-06-19T03:00:00.000Z",
-   "finalizada": null,
-   "modalidade": "",
+   "finalizada": "2026-08-04T03:00:00.000Z",
+   "modalidade": "Inexigibilidade",
    "numeroProcesso": "",
    "statusFinal": "",
    "naPlanilha": true,
