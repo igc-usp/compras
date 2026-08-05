@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-05T11:29:50.001Z",
+ "atualizadoEm": "2026-08-05T11:42:14.935Z",
  "compras": {
   "empenhadas": 43,
   "valorEfetivado": 1964438.38,
@@ -3743,7 +3743,7 @@
    "prioridade": "normal",
    "responsavel": "Joelma",
    "desde": "2026-07-21T03:00:00.000Z",
-   "finalizada": "2026-08-05T03:00:00.000Z",
+   "finalizada": null,
    "modalidade": "Dispensa",
    "numeroProcesso": "12/2026",
    "statusFinal": "",
