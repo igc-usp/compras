@@ -180,7 +180,7 @@ function medidas(){
     filaSem: filaSemArr.length, emMaos: emMaosArr.length,
     analisadas: rows.filter(r=>r.situacao==="Analisada").length,
     concluidas: rows.filter(r=>r.situacao==="Concluída").length,
-    entreguesN: rows.filter(r=>r.fim && r.resp).length,
+    entreguesN: rows.filter(r=>r.fim).length,
     filaSemArr, emMaosArr,
     urgentesSem: filaSemArr.filter(r=>r.prio==="urgente").length,
     m90: fila.filter(r=>r.idade!==null && r.idade>90).length,
