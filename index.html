@@ -42,9 +42,6 @@ main{max-width:1240px;margin:0 auto;padding:18px 22px 60px}
 .panel{background:#fff;border:1px solid var(--line);border-radius:6px;padding:14px}
 .panel h3{font-size:12.5px;color:var(--navy);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px;border-bottom:2px solid var(--light);padding-bottom:6px}
 .panel .chart-wrap{position:relative;height:230px}
-.gargalos li{list-style:none;padding:8px 10px;border-left:3px solid var(--red);background:#FBF3F4;margin-bottom:7px;border-radius:0 4px 4px 0;font-size:13px}
-.gargalos li.warn{border-left-color:var(--gold);background:#FBF7EA}
-.gargalos li.ok{border-left-color:var(--green);background:#F0F7F1}
 .filtros{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 12px;align-items:center}
 select,input[type=text]{font-family:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:4px;background:#fff;color:var(--ink)}
 select:focus-visible,input:focus-visible{outline:2px solid var(--blue)}
@@ -75,17 +72,10 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
   <div class="meta-line">
     <span id="metaImport">Carregando dados…</span>
     <span id="metaCom"></span>
-    <span id="healthChip"></span>
   </div>
 
   <div id="dash" style="display:none">
     <div class="cards" id="cards"></div>
-
-    <div class="regua">
-      <h3>Régua de idade da fila (demandas do tipo Compra) — dias desde o encaminhamento</h3>
-      <div class="regua-bar" id="reguaBar" role="img" aria-label="Composição da fila por faixa de idade"></div>
-      <div class="regua-leg" id="reguaLeg"></div>
-    </div>
 
     <div class="grid2">
       <div class="panel"><h3>Fila × em mãos × entregues</h3><div class="chart-wrap"><canvas id="chFluxo"></canvas></div></div>
@@ -93,11 +83,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
     </div>
     <div class="grid2">
       <div class="panel"><h3>Demandas de Compra encaminhadas por mês</h3><div class="chart-wrap"><canvas id="chMes"></canvas></div></div>
-      <div class="panel"><h3>Gargalos e alertas</h3><ul class="gargalos" id="gargalos"></ul></div>
-    </div>
-    <div class="panel" style="margin-bottom:16px">
-      <h3>Compras por modalidade</h3>
-      <div class="chart-wrap" style="height:200px"><canvas id="chModal"></canvas></div>
+      <div class="panel"><h3>Compras por modalidade</h3><div class="chart-wrap"><canvas id="chModal"></canvas></div></div>
     </div>
 
     <div class="panel">
@@ -121,6 +107,14 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
           <tbody id="tbody"></tbody>
         </table>
       </div>
+    </div>
+  </div>
+
+  <div style="margin-top:16px;background:#fff;border:1px solid #D4DDE8;border-left:5px solid #1F3864;border-radius:6px;padding:14px 16px">
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:bold;color:#1F3864;margin-bottom:6px">Contatos da Seção de Compras</div>
+    <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#1B2430;line-height:1.8">
+      José Eduardo (chefia): (11) 3091-3951 &nbsp;·&nbsp; Brenno: (11) 3091-4232 &nbsp;·&nbsp; Joelma: (11) 3091-4078 &nbsp;·&nbsp; Thiago: (11) 3091-3963 &nbsp;·&nbsp; Israel: (11) 3091-4203
+      <br><span style="color:#5B6B7E;font-size:12px">E-mail: comprasigc@usp.br</span>
     </div>
   </div>
 
@@ -193,33 +187,11 @@ function render(){
   $("metaImport").textContent = "Atualizado em " + new Date(DADOS.atualizadoEm).toLocaleString("pt-BR") + " · " + m.total + " demandas na base";
   if(DADOS.compras) $("metaCom").textContent = "Compras: " + DADOS.compras.empenhadas + " empenhadas/inspeção (R$ " + DADOS.compras.valorEfetivado.toLocaleString("pt-BR",{minimumFractionDigits:2}) + ") · " + DADOS.compras.emAndamento + " em andamento";
 
-  const pctResp = m.fila.length ? ((m.fila.length - m.filaSem)/m.fila.length) : 1;
-  let estado, cls;
-  if(m.urgentesSem>0 || m.m90>20 || pctResp<0.3){ estado="Crítico"; cls="bad"; }
-  else if(m.m90>0 || pctResp<0.7 || m.m30sem>5){ estado="Atenção"; cls="warn"; }
-  else { estado="Saudável"; cls="ok"; }
-  $("healthChip").innerHTML = '<span class="chip '+cls+'"><span class="dot"></span>Saúde da Seção: '+estado+' — '+Math.round(pctResp*100)+'% da fila com responsável</span>';
-
   $("cards").innerHTML = [
-    ['Na fila', m.filaSem, m.filaSem>0?'atencao':''],
-    ['Em mãos de funcionários', m.emMaos, ''],
     ['Analisadas (compras)', m.analisadas, ''],
     ['Concluídas (adiantamentos)', m.concluidas, ''],
-    ['Na fila há mais de 90 dias', m.m90, m.m90>0?'alerta':''],
     ['Total de demandas de compra', m.totalCompra, '']
   ].map(c=>'<div class="card '+c[2]+'"><div class="k">'+c[1]+'</div><div class="l">'+c[0]+'</div></div>').join("");
-
-  const faixas = [["0–30",0,30,CORES.blue],["31–60",31,60,CORES.mid],["61–90",61,90,CORES.gold],["91–180",91,180,CORES.red],[">180",181,99999,"#7A2531"]];
-  const tot = m.fila.length || 1;
-  $("reguaBar").innerHTML = faixas.map(f=>{
-    const n = m.fila.filter(r=>r.idade!==null && r.idade>=f[1] && r.idade<=f[2]).length;
-    const w = (n/tot*100);
-    return n? '<div style="width:'+w+'%;background:'+f[3]+'" title="'+f[0]+' dias: '+n+'">'+(w>6?n:"")+'</div>':"";
-  }).join("");
-  $("reguaLeg").innerHTML = faixas.map(f=>{
-    const n = m.fila.filter(r=>r.idade!==null && r.idade>=f[1] && r.idade<=f[2]).length;
-    return '<span><i style="background:'+f[3]+'"></i>'+f[0]+' dias · '+n+'</span>';
-  }).join("");
 
   Chart.defaults.font.family = "Arial, Helvetica, sans-serif";
   Chart.defaults.font.size = 11;
@@ -258,17 +230,6 @@ function render(){
       scales:{x:{stacked:true,ticks:{precision:0}},y:{stacked:true}},
       plugins:{legend:{position:"bottom"}}}});
 
-  const g = [];
-  if(m.urgentesSem>0) g.push(["", m.urgentesSem+" demanda(s) URGENTE(s) aguardando distribuição."]);
-  if(m.m90>0) g.push(["", m.m90+" demanda(s) na fila há mais de 90 dias — estoque antigo em triagem."]);
-  if(m.m30sem>0) g.push(["warn", m.m30sem+" demanda(s) sem responsável há mais de 30 dias de fila."]);
-  const cargas = FUNC.map(f=>m.emMaosArr.filter(r=>r.resp===f).length);
-  const media = cargas.reduce((a,b)=>a+b,0)/FUNC.length;
-  cargas.forEach((c,i)=>{ if(media>0 && c>=media*2 && c>=4) g.push(["warn","Carga de "+FUNC[i]+" ("+c+" demandas) em pelo menos o dobro da média da equipe."]); });
-  const paradas = m.emMaosArr.filter(r=>r.desde && dias(new Date(r.desde))>30).length;
-  if(paradas>0) g.push(["warn", paradas+" demanda(s) em mãos há mais de 30 dias sem finalizar."]);
-  if(!g.length) g.push(["ok","Nenhum gargalo detectado nos critérios monitorados. Fila sob controle."]);
-  $("gargalos").innerHTML = g.map(x=>'<li class="'+x[0]+'">'+x[1]+'</li>').join("");
 
   const selR = $("fResp");
   while(selR.options.length>3) selR.remove(3);
