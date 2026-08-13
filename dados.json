@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-13T14:29:07.075Z",
+ "atualizadoEm": "2026-08-13T14:39:04.871Z",
  "compras": {
   "empenhadas": 47,
   "valorEfetivado": 1976997.44,
@@ -3399,7 +3399,7 @@
    "encam": "2026-07-06T11:38:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "Israel",
+   "responsavel": "Thiago",
    "desde": "2026-07-06T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "",
