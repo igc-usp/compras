@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-13T19:51:01.520Z",
+ "atualizadoEm": "2026-08-14T10:50:20.479Z",
  "compras": {
   "empenhadas": 47,
   "valorEfetivado": 1976997.44,
@@ -12,8 +12,8 @@
    "finalidade": "Insumos para confecção de lâminas delgadas confeccionadas no Laboratório de Laminação e usadas em aulas práticas e pesquisas na caracterização petrográfica de rochas.",
    "requisitante": "Eliane Aparecida",
    "cadastro": "2026-08-13T13:58:00.000Z",
-   "encam": null,
-   "situacao": "Em elaboração",
+   "encam": "2026-08-14T10:43:00.000Z",
+   "situacao": "Para compras",
    "prioridade": "normal",
    "responsavel": "",
    "desde": null,
@@ -21,8 +21,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-13T00:00:00.000Z"
   },
   {
    "demanda": "249980/2026",
@@ -1579,7 +1579,7 @@
    "requisitante": "Eliane Aparecida",
    "cadastro": "2026-06-17T17:14:00.000Z",
    "encam": null,
-   "situacao": "Em elaboração",
+   "situacao": "Cancelada",
    "prioridade": "normal",
    "responsavel": "",
    "desde": null,
