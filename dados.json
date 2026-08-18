@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-18T10:59:27.036Z",
+ "atualizadoEm": "2026-08-18T12:47:28.480Z",
  "compras": {
   "empenhadas": 49,
   "valorEfetivado": 2005977.44,
@@ -2483,7 +2483,7 @@
    "prioridade": "normal",
    "responsavel": "Eduardo",
    "desde": "2026-08-16T03:00:00.000Z",
-   "finalizada": null,
+   "finalizada": "2026-08-18T03:00:00.000Z",
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
@@ -2501,7 +2501,7 @@
    "prioridade": "normal",
    "responsavel": "Eduardo",
    "desde": "2026-08-16T03:00:00.000Z",
-   "finalizada": null,
+   "finalizada": "2026-08-18T03:00:00.000Z",
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
@@ -4323,8 +4323,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-03-20T00:00:00.000Z"
   },
   {
    "demanda": "99245/2026",
