@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-18T12:47:28.480Z",
+ "atualizadoEm": "2026-08-18T13:43:26.086Z",
  "compras": {
   "empenhadas": 49,
   "valorEfetivado": 2005977.44,
@@ -2481,14 +2481,14 @@
    "encam": "2026-08-17T20:15:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "Eduardo",
-   "desde": "2026-08-16T03:00:00.000Z",
-   "finalizada": "2026-08-18T03:00:00.000Z",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": true,
-   "envio1": "2026-08-17T00:00:00.000Z"
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "153410/2026",
@@ -2499,14 +2499,14 @@
    "encam": "2026-08-17T20:17:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "Eduardo",
-   "desde": "2026-08-16T03:00:00.000Z",
-   "finalizada": "2026-08-18T03:00:00.000Z",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": true,
-   "envio1": "2026-08-17T00:00:00.000Z"
+   "naPlanilha": false,
+   "envio1": null
   },
   {
    "demanda": "152480/2026",
@@ -4324,7 +4324,7 @@
    "numeroProcesso": "",
    "statusFinal": "",
    "naPlanilha": true,
-   "envio1": "2026-03-20T00:00:00.000Z"
+   "envio1": "2026-07-06T00:00:00.000Z"
   },
   {
    "demanda": "99245/2026",
