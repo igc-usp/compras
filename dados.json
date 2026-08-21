@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-21T11:08:38.167Z",
+ "atualizadoEm": "2026-08-21T11:25:16.248Z",
  "compras": {
   "empenhadas": 55,
   "valorEfetivado": 2049557.89,
@@ -2933,10 +2933,10 @@
    "prioridade": "normal",
    "responsavel": "Brenno",
    "desde": "2026-07-07T03:00:00.000Z",
-   "finalizada": null,
+   "finalizada": "2026-08-21T03:00:00.000Z",
    "modalidade": "Pregão",
    "numeroProcesso": "92/2026",
-   "statusFinal": "",
+   "statusFinal": "Homologado",
    "naPlanilha": true,
    "envio1": "2026-04-27T00:00:00.000Z"
   },
