@@ -212,11 +212,19 @@ function render(){
     options:{maintainAspectRatio:false, scales:{y:{ticks:{precision:0}}}, plugins:{legend:{display:false}}}});
 
   const MODS_GRAF = ["Pregão","Dispensa","Inexigibilidade","Concorrência"];
-  const comprasMod = m.rows.filter(r=>r.tipo==="Compra" && r.mod);
+  // demandas unidas numa mesma licitação (mesma modalidade E mesmo nº de processo) contam uma única vez
+  const vistosMod = {}; const unidades = [];
+  m.rows.filter(r=>r.tipo==="Compra" && r.mod).forEach(r=>{
+    if(r.num){
+      const k = r.mod+"|"+r.num;
+      if(vistosMod[k]){ vistosMod[k].fim = vistosMod[k].fim && !!r.fim; return; }
+      const g = {mod:r.mod, fim: !!r.fim}; vistosMod[k]=g; unidades.push(g);
+    } else unidades.push({mod:r.mod, fim: !!r.fim});
+  });
   charts.md = new Chart($("chModal"), {type:"bar",
     data:{labels:MODS_GRAF, datasets:[
-      {label:"Em andamento", data:MODS_GRAF.map(v=>comprasMod.filter(r=>r.mod===v && !r.fim).length), backgroundColor:CORES.blue, stack:"s"},
-      {label:"Entregues", data:MODS_GRAF.map(v=>comprasMod.filter(r=>r.mod===v && r.fim).length), backgroundColor:CORES.green, stack:"s"}]},
+      {label:"Em andamento", data:MODS_GRAF.map(v=>unidades.filter(r=>r.mod===v && !r.fim).length), backgroundColor:CORES.blue, stack:"s"},
+      {label:"Entregues", data:MODS_GRAF.map(v=>unidades.filter(r=>r.mod===v && r.fim).length), backgroundColor:CORES.green, stack:"s"}]},
     options:{maintainAspectRatio:false, indexAxis:"y",
       scales:{x:{stacked:true,ticks:{precision:0}},y:{stacked:true}},
       plugins:{legend:{position:"bottom"}}}});
