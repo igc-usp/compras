@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-27T11:10:03.800Z",
+ "atualizadoEm": "2026-08-27T13:36:40.264Z",
  "compras": {
   "empenhadas": 56,
   "valorEfetivado": 2141957.89,
@@ -2697,8 +2697,8 @@
    "encam": "2026-08-13T19:43:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "Israel",
-   "desde": "2026-06-23T03:00:00.000Z",
+   "responsavel": "Eduardo",
+   "desde": "2026-08-27T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
@@ -6103,7 +6103,7 @@
    "desde": "2026-08-10T03:00:00.000Z",
    "finalizada": null,
    "modalidade": "Dispensa",
-   "numeroProcesso": "37/2026",
+   "numeroProcesso": "",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-01-09T00:00:00.000Z"
