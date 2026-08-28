@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-08-28T19:15:13.190Z",
+ "atualizadoEm": "2026-08-28T19:20:24.118Z",
  "compras": {
   "empenhadas": 58,
   "valorEfetivado": 2156227.89,
@@ -326,7 +326,7 @@
    "finalizada": "2026-08-27T03:00:00.000Z",
    "modalidade": "Dispensa",
    "numeroProcesso": "108/2026",
-   "statusFinal": "",
+   "statusFinal": "Homologado",
    "naPlanilha": true,
    "envio1": "2026-08-12T00:00:00.000Z"
   },
