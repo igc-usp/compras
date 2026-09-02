@@ -78,7 +78,7 @@ footer{max-width:1240px;margin:0 auto;padding:0 22px 30px;color:var(--muted);fon
     <div class="cards" id="cards"></div>
 
     <div class="grid2">
-      <div class="panel"><h3>Fila × em mãos × entregues</h3><div class="chart-wrap"><canvas id="chFluxo"></canvas></div></div>
+      <div class="panel"><h3>Entregues × não entregues (demandas de compra)</h3><div class="chart-wrap"><canvas id="chFluxo"></canvas></div></div>
       <div class="panel"><h3>Carga por funcionário (demandas em mãos)</h3><div class="chart-wrap"><canvas id="chCarga"></canvas></div></div>
     </div>
     <div class="grid2">
@@ -165,7 +165,8 @@ function medidas(){
     filaSem: filaSemArr.length, emMaos: emMaosArr.length,
     analisadas: rows.filter(r=>r.situacao==="Analisada").length,
     concluidas: rows.filter(r=>r.situacao==="Concluída").length,
-    entreguesN: rows.filter(r=>r.fim).length,
+    entreguesN: rows.filter(r=>r.tipo==="Compra" && r.fim).length,
+    naoEntreguesN: rows.filter(r=>r.tipo==="Compra" && !r.fim).length,
     filaSemArr, emMaosArr,
     urgentesSem: filaSemArr.filter(r=>r.prio==="urgente").length,
     m90: fila.filter(r=>r.idade!==null && r.idade>90).length,
@@ -189,8 +190,8 @@ function render(){
   Object.values(charts).forEach(c=>c.destroy()); charts={};
 
   charts.f = new Chart($("chFluxo"), {type:"doughnut",
-    data:{labels:["Na fila (sem responsável)","Em mãos","Entregues"],
-      datasets:[{data:[m.filaSem, m.emMaos, m.entreguesN], backgroundColor:[CORES.grey, CORES.navy, CORES.green], borderWidth:1}]},
+    data:{labels:["Entregues","Não entregues"],
+      datasets:[{data:[m.entreguesN, m.naoEntreguesN], backgroundColor:[CORES.green, CORES.navy], borderWidth:1}]},
     options:{maintainAspectRatio:false, cutout:"55%", plugins:{legend:{position:"right"}}}});
 
   const porF = FUNC.map(f=>{
