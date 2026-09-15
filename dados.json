@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-09-15T19:29:55.135Z",
+ "atualizadoEm": "2026-09-15T20:40:52.952Z",
  "compras": {
   "empenhadas": 59,
   "valorEfetivado": 2159447.49,
@@ -2268,8 +2268,8 @@
    "responsavel": "Eduardo",
    "desde": "2026-08-27T12:00:00",
    "finalizada": null,
-   "modalidade": "Dispensa",
-   "numeroProcesso": "95/2026",
+   "modalidade": "",
+   "numeroProcesso": "",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-06-17T00:00:00.000Z"
