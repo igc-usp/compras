@@ -1,11 +1,65 @@
 {
- "atualizadoEm": "2026-09-21T11:08:56.057Z",
+ "atualizadoEm": "2026-09-23T16:16:36.306Z",
  "compras": {
   "empenhadas": 61,
   "valorEfetivado": 2184722.49,
   "emAndamento": 6
  },
  "demandas": [
+  {
+   "demanda": "296245/2026",
+   "tipo": "AdesãoRP",
+   "finalidade": "teste",
+   "requisitante": "Israel Martins",
+   "cadastro": "2026-09-23T13:37:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "295257/2026",
+   "tipo": "Compra",
+   "finalidade": "Contratação de serviço automotivo em manutenção, utilitário Fiat Toro, placa: FWB 0H47, patrim,200.022.174  para utilização dos docentes e dicentes  em diversas atividades de campo do I.G.c.",
+   "requisitante": "Leonardo Pudelko",
+   "cadastro": "2026-09-22T16:47:00.000Z",
+   "encam": null,
+   "situacao": "Em elaboração",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
+  {
+   "demanda": "293882/2026",
+   "tipo": "Adiantamento",
+   "finalidade": "Aquisição de 1 contato do trinco da porta do 1° pavimento corrediça horizontal do elevador Zenit n° fabricação EL 1023, este dispositivo de segurança destina-se a confirmação de que a porta esteja fechada.",
+   "requisitante": "Antonio Soares",
+   "cadastro": "2026-09-21T17:36:00.000Z",
+   "encam": "2026-09-22T13:48:00.000Z",
+   "situacao": "P/ Autorizador",
+   "prioridade": "normal",
+   "responsavel": "",
+   "desde": null,
+   "finalizada": null,
+   "modalidade": "",
+   "numeroProcesso": "",
+   "statusFinal": "",
+   "naPlanilha": false,
+   "envio1": null
+  },
   {
    "demanda": "291880/2026",
    "tipo": "Adiantamento",
@@ -39,8 +93,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-09-18T00:00:00.000Z"
   },
   {
    "demanda": "288986/2026",
@@ -597,8 +651,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "261948/2026",
@@ -615,8 +669,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "261786/2026",
@@ -1299,8 +1353,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "230996/2026",
@@ -6093,11 +6147,11 @@
   {
    "demanda": "19535/2026",
    "tipo": "Compra",
-   "finalidade": "Manutenção corretiva com troca de peças em equipamento espectrômetro de massa modelo DELTA V IRMS marca THERMOFISHER, patrimõnio 044.013462, utilizado para análises de isótopos estáveis em matrizes de sedimento e minerais carbonaticas.",
+   "finalidade": "Manutenção corretiva com troca de peças em equipamento espectrômetro de massa modelo DELTA V ADVANTAGE IRMS marca THERMOFISHER, patrimônio 044.013462, utilizado para análise isotópica de oxigênio e hidrogênio em amostras de água, além da análise de isótop",
    "requisitante": "Henrique Martins",
    "cadastro": "2026-01-22T17:07:00.000Z",
-   "encam": "2026-09-15T13:19:00.000Z",
-   "situacao": "Para compras",
+   "encam": "2026-09-21T19:48:00.000Z",
+   "situacao": "Em elaboração",
    "prioridade": "normal",
    "responsavel": "Eduardo",
    "desde": "2026-08-20T00:00:00.000Z",
@@ -6479,7 +6533,7 @@
    "prioridade": "normal",
    "responsavel": "Israel",
    "desde": "2026-08-12T00:00:00.000Z",
-   "finalizada": null,
+   "finalizada": "2026-09-23T16:16:30.584Z",
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
