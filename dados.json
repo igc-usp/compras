@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-16T16:17:59.311Z",
+ "atualizadoEm": "2026-11-16T16:40:50.359Z",
  "compras": {
   "empenhadas": 82,
   "valorEfetivado": 2528567.25,
@@ -435,8 +435,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-09-23T00:00:00.000Z"
   },
   {
    "demanda": "296245/2026",
@@ -525,8 +525,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-09-18T00:00:00.000Z"
   },
   {
    "demanda": "288986/2026",
@@ -777,8 +777,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-11-16T00:00:00.000Z"
   },
   {
    "demanda": "351394/2026",
@@ -1173,8 +1173,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-10-19T00:00:00.000Z"
   },
   {
    "demanda": "321533/2026",
@@ -1389,8 +1389,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-10-14T00:00:00.000Z"
   },
   {
    "demanda": "314677/2026",
@@ -1587,8 +1587,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "206157/2026",
@@ -2253,8 +2253,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-09-01T00:00:00.000Z"
   },
   {
    "demanda": "270980/2026",
@@ -2415,8 +2415,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "261948/2026",
@@ -2433,8 +2433,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "261786/2026",
@@ -2865,8 +2865,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-06T00:00:00.000Z"
   },
   {
    "demanda": "244644/2026",
@@ -3009,8 +3009,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "234975/2026",
@@ -3027,8 +3027,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-29T00:00:00.000Z"
   },
   {
    "demanda": "234169/2026",
@@ -3117,8 +3117,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-08-20T00:00:00.000Z"
   },
   {
    "demanda": "230996/2026",
@@ -3261,8 +3261,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-23T00:00:00.000Z"
   },
   {
    "demanda": "228932/2026",
@@ -3315,8 +3315,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-22T00:00:00.000Z"
   },
   {
    "demanda": "228169/2026",
@@ -3459,8 +3459,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-17T00:00:00.000Z"
   },
   {
    "demanda": "221296/2026",
@@ -3513,8 +3513,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-15T00:00:00.000Z"
   },
   {
    "demanda": "214745/2026",
@@ -3855,8 +3855,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-06-30T00:00:00.000Z"
   },
   {
    "demanda": "207161/2026",
@@ -3981,8 +3981,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-05-29T00:00:00.000Z"
   },
   {
    "demanda": "177246/2026",
@@ -4017,8 +4017,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-06-01T00:00:00.000Z"
   },
   {
    "demanda": "175820/2026",
@@ -5223,8 +5223,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-04-13T00:00:00.000Z"
   },
   {
    "demanda": "126200/2026",
@@ -5367,8 +5367,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-04-02T00:00:00.000Z"
   },
   {
    "demanda": "113523/2026",
@@ -5727,8 +5727,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-03-19T00:00:00.000Z"
   },
   {
    "demanda": "96190/2026",
@@ -5745,8 +5745,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-03-19T00:00:00.000Z"
   },
   {
    "demanda": "96165/2026",
@@ -6123,8 +6123,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-03-06T00:00:00.000Z"
   },
   {
    "demanda": "78663/2026",
@@ -6285,8 +6285,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-03-09T00:00:00.000Z"
   },
   {
    "demanda": "70905/2026",
@@ -6429,8 +6429,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-07-06T00:00:00.000Z"
   },
   {
    "demanda": "64549/2026",
@@ -6645,8 +6645,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-02-27T00:00:00.000Z"
   },
   {
    "demanda": "58670/2026",
@@ -6753,8 +6753,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-02-13T00:00:00.000Z"
   },
   {
    "demanda": "52842/2026",
@@ -6951,8 +6951,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-02-11T00:00:00.000Z"
   },
   {
    "demanda": "43150/2026",
@@ -6963,14 +6963,14 @@
    "encam": "2026-05-21T18:37:00.000Z",
    "situacao": "Para compras",
    "prioridade": "normal",
-   "responsavel": "",
-   "desde": null,
+   "responsavel": "Eduardo",
+   "desde": "2026-11-13T00:00:00.000Z",
    "finalizada": null,
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-02-06T00:00:00.000Z"
   },
   {
    "demanda": "41980/2026",
@@ -7239,8 +7239,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-01-28T00:00:00.000Z"
   },
   {
    "demanda": "25667/2026",
@@ -7455,7 +7455,7 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
+   "naPlanilha": true,
    "envio1": null
   },
   {
@@ -7527,8 +7527,8 @@
    "modalidade": "",
    "numeroProcesso": "",
    "statusFinal": "",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-01-15T00:00:00.000Z"
   },
   {
    "demanda": "9009/2026",
@@ -7563,8 +7563,8 @@
    "modalidade": "Dispensa",
    "numeroProcesso": "19/2026",
    "statusFinal": "Anulado",
-   "naPlanilha": false,
-   "envio1": null
+   "naPlanilha": true,
+   "envio1": "2026-01-14T00:00:00.000Z"
   },
   {
    "demanda": "8851/2026",
