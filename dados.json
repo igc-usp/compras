@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-11-25T13:55:11.378Z",
+ "atualizadoEm": "2026-11-25T14:10:34.248Z",
  "compras": {
   "empenhadas": 82,
   "valorEfetivado": 2528567.25,
@@ -1836,8 +1836,8 @@
    "responsavel": "Joelma",
    "desde": "2026-08-12T17:33:10.015Z",
    "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
+   "modalidade": "Dispensa",
+   "numeroProcesso": "13/2026",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-06-16T00:00:00.000Z"
@@ -2016,8 +2016,8 @@
    "responsavel": "Joelma",
    "desde": "2026-08-12T17:33:11.718Z",
    "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
+   "modalidade": "Dispensa",
+   "numeroProcesso": "13/2026",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-06-16T00:00:00.000Z"
@@ -2934,8 +2934,8 @@
    "responsavel": "Joelma",
    "desde": "2026-08-12T17:33:13.198Z",
    "finalizada": null,
-   "modalidade": "",
-   "numeroProcesso": "",
+   "modalidade": "Dispensa",
+   "numeroProcesso": "13/2026",
    "statusFinal": "",
    "naPlanilha": true,
    "envio1": "2026-08-07T00:00:00.000Z"
